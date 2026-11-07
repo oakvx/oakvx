@@ -9,7 +9,7 @@
     <style>
       text { font-family: 'Inter', sans-serif; }
       .number { font-size: 13px; font-weight: 600; fill: #7a8589; letter-spacing: .1px; }
-      .title { font-size: 37px; font-weight: 700; fill: #3e4447; letter-spacing: -1.15px; }
+      .title { font-family: 'Continuum Bold', 'Inter', sans-serif; font-size: 37px; font-weight: 400; fill: #3e4447; letter-spacing: -.55px; }
       .description { font-size: 16px; font-weight: 400; fill: #6d787c; letter-spacing: -.12px; }
       .tag { font-size: 12px; font-weight: 500; fill: #626e72; }
       .open { font-size: 13px; font-weight: 400; fill: #7b868a; }
