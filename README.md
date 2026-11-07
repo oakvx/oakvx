@@ -22,7 +22,12 @@
 
 </div>
 
-### Hi, I'm Gabriele.
+<h3>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/hello-dark.png" />
+<img src="./assets/headings/hello-light.png" width="194" height="42" alt="Hi, I'm Gabriele." />
+</picture>
+</h3>
 
 I'm a computer engineering student, junior software developer and graphic designer. I like both sides of a project: **the interface people touch and the logic that makes it work**. Most of what is below started as something I needed, wanted to understand, or thought should exist.
 
@@ -32,16 +37,31 @@ I'm a computer engineering student, junior software developer and graphic design
 
 </div>
 
-## Right now
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/right-now-dark.png" />
+<img src="./assets/headings/right-now-light.png" width="159" height="48" alt="Right now" />
+</picture>
+</h2>
 
 - **Researching:** PS4 payloads, ELF/Orbis binaries and network observability with **middleManPS4**, on hardware I own.
 - **Recently shipped:** **Brat Animator 5.0**, with simple and advanced editors, more lyric formats, bilingual lyrics and portable projects.
 - **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
 - **Designing:** interfaces, graphics and small Mii animations alongside the code—not as an afterthought.
 
-## Projects
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/projects-dark.png" />
+<img src="./assets/headings/projects-light.png" width="130" height="48" alt="Projects" />
+</picture>
+</h2>
 
-### Design & Web
+<h3>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/design-web-dark.png" />
+<img src="./assets/headings/design-web-light.png" width="185" height="42" alt="Design &amp; Web" />
+</picture>
+</h3>
 
 *Sites, interfaces and visual systems: the part people see and touch.*
 
@@ -82,7 +102,12 @@ The coming-soon site for the Synkris salon assistant: three interactive scenario
 
 <sub><b>Demo credits:</b> Spinotto Felice's original structure and style are mine; its fictional content and AI-generated images are by <a href="https://www.albertopecchini.it">Alberto Pecchini</a>. The business is invented and the demo does not take real orders or bookings.</sub>
 
-### Backend & App Logic
+<h3>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/backend-app-logic-dark.png" />
+<img src="./assets/headings/backend-app-logic-light.png" width="264" height="42" alt="Backend &amp; App Logic" />
+</picture>
+</h3>
 
 *Server-side systems and logic-heavy browser apps: data, timing, automation and export pipelines.*
 
@@ -114,7 +139,12 @@ My diploma project: a multisalon PHP/MySQL CRM for clients, staff roles, appoint
 
 <sub><b>The common thread.</b> Whether it runs on a server or entirely in the browser, I enjoy turning messy input into a clear, useful flow: a message becomes an appointment, a timestamp becomes an animation, a schedule becomes an available slot. Useful first. Portable when possible. The implementation details matter.</sub>
 
-### Reverse Engineering
+<h3>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/reverse-engineering-dark.png" />
+<img src="./assets/headings/reverse-engineering-light.png" width="252" height="42" alt="Reverse Engineering" />
+</picture>
+</h3>
 
 *Looking under the surface, testing assumptions and keeping the evidence.*
 
@@ -142,7 +172,12 @@ It includes ELF validation and sending, read-only firmware diagnostics, ELF/Orbi
 
 </div>
 
-## Focus & toolbox
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/focus-toolbox-dark.png" />
+<img src="./assets/headings/focus-toolbox-light.png" width="241" height="48" alt="Focus &amp; toolbox" />
+</picture>
+</h2>
 
 <img src="./assets/toolkit.png" width="100%" alt="Four tiles: Web (HTML, CSS, JS, Canvas), Backend (Node.js, PHP, Git), Data (PostgreSQL, MySQL, SQL Server), Systems (Windows, Active Directory, PLC basics)" />
 
@@ -154,7 +189,12 @@ It includes ELF validation and sending, read-only firmware diagnostics, ELF/Orbi
 
 > **How I like to build:** useful over flashy · local-first when it makes sense · accessible motion · evidence over assumptions.
 
-## Where I've been
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/where-ive-been-dark.png" />
+<img src="./assets/headings/where-ive-been-light.png" width="238" height="48" alt="Where I've been" />
+</picture>
+</h2>
 
 | When | What |
 | :-- | :-- |
@@ -164,7 +204,12 @@ It includes ELF validation and sending, read-only firmware diagnostics, ELF/Orbi
 | **May–Jun 2025** | **Erasmus+ at Starbotica, Seville:** IT support, educational activities, Windows, Active Directory and local networks |
 | **2021–2026** | **Computer Science & Telecommunications** at IIS A. Volta, Sassuolo; Beautify was my final diploma project |
 
-## After hours
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/after-hours-dark.png" />
+<img src="./assets/headings/after-hours-light.png" width="169" height="48" alt="After hours" />
+</picture>
+</h2>
 
 I write code with no particular purpose, rebuild things that already worked because I found a better way, and leave the computer on a little longer than intended.
 
