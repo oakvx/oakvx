@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="42" viewBox="0 0 264 42" role="img" aria-labelledby="title">
+  <title id="title">Backend &amp; App Logic</title>
+  <style>.title { font-family: 'Continuum Bold', sans-serif; font-size: 27px; font-weight: 400; letter-spacing: -.55px; }</style>
+  <rect x="1" y="9" width="6" height="24" rx="3" fill="#16bad8"/>
+  <text x="22" y="31" class="title" fill="#3e4447">Backend &amp; App Logic</text>
+</svg>

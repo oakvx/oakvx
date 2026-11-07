@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="48" viewBox="0 0 238 48" role="img" aria-labelledby="title">
+  <title id="title">Where I've been</title>
+  <style>.title { font-family: 'Continuum Bold', sans-serif; font-size: 32px; font-weight: 400; letter-spacing: -.55px; }</style>
+  <rect x="1" y="11" width="6" height="27" rx="3" fill="#16bad8"/>
+  <text x="22" y="35" class="title" fill="#3e4447">Where I've been</text>
+</svg>
