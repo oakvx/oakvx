@@ -88,39 +88,31 @@ The coming-soon site for the Synkris salon assistant: three interactive scenario
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas and WebCodecs" /></a>
 <br/>
-A browser-based lyric-video studio, now at <b>v5.0</b>. LRC, TTML, Lyricsfile YAML/JSON, SRT and WebVTT; direct Canvas editing, bilingual lyrics, custom fonts and portable <code>.brat.zip</code> projects. MP4, WebM or PNG export without a processing backend.
+A browser-based lyric-video studio, now at <b>v5.0</b>. Multi-format lyrics, direct Canvas editing, bilingual projects, custom fonts and portable <code>.brat.zip</code> files. MP4, WebM or PNG export with no processing backend.
 <br/>
 <a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/projects/synk/"><img src="./assets/synk.png" width="100%" alt="Synk: Node.js, PostgreSQL and Google Calendar" /></a>
 <br/>
-A WhatsApp appointment assistant for salons. I worked on the Node.js intent picker, local PostgreSQL data, Google Calendar integration and management dashboard, plus experiments with quantized 4B models and llama.cpp.
+A WhatsApp appointment assistant with a Node.js intent picker, PostgreSQL, Google Calendar and a management dashboard. Includes experiments with quantized 4B models and llama.cpp.
 <br/>
 <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/projects/beautify/"><img src="./assets/beautify.png" width="100%" alt="Beautify: PHP and MySQL" /></a>
 <br/>
-My diploma project: a multisalon CRM for clients, services, staff roles, appointments, stock and analytics. PHP/MySQL backend, per-salon data separation and shared availability checks.
+My diploma project: a multisalon PHP/MySQL CRM for clients, staff roles, appointments, stock and analytics, with per-salon data separation and shared availability checks.
 <br/>
 <a href="https://github.com/oakvxish/maturita">Code</a> · <a href="https://oakvx.github.io/projects/beautify/">Case study</a>
 </td>
-<td width="50%" valign="top">
-<br/>
-<b>The common thread.</b>
-<br/><br/>
-Whether it runs on a server or entirely in the browser, I enjoy the point where messy input becomes a clear, useful flow: a message becomes an appointment, a timestamp becomes an animation, a schedule becomes an available slot.
-<br/><br/>
-<sub>Useful first. Portable when possible. The implementation details matter.</sub>
-</td>
 </tr>
 </table>
+
+<sub><b>The common thread.</b> Whether it runs on a server or entirely in the browser, I enjoy turning messy input into a clear, useful flow: a message becomes an appointment, a timestamp becomes an animation, a schedule becomes an available slot. Useful first. Portable when possible. The implementation details matter.</sub>
 
 ### Reverse Engineering
 
@@ -128,10 +120,9 @@ Whether it runs on a server or entirely in the browser, I enjoy the point where 
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 <a href="https://github.com/oakvx/middleManPS4"><img src="./assets/middleman-ps4.png" width="100%" alt="middleManPS4: Python, ELF and Orbis analysis, optional Ghidra export" /></a>
-</td>
-<td width="50%" valign="top">
+<br/>
 <b>middleManPS4 · research / WIP · v0.15</b>
 <br/><br/>
 A PS4 payload lab and offline binary-analysis toolkit built around three questions: how a payload is loaded, what is inside the binaries and what is actually visible on the wire.
