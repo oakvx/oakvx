@@ -13,6 +13,7 @@
 
 <a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp; · &nbsp;
+<a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp; · &nbsp;
 <a href="mailto:gabrielelucia07@gmail.com"><b>EMAIL</b></a>
 
 <br/>
@@ -23,7 +24,7 @@
 
 ### Hi, I'm Gabriele.
 
-I'm a computer engineering student who builds websites, small web apps and the backends behind them, and I design the interfaces myself. Most of what's below started as something I needed or wanted to exist.
+I'm a computer engineering student, junior software developer and graphic designer. I like both sides of a project: **the interface people touch and the logic that makes it work**. Most of what is below started as something I needed, wanted to understand, or thought should exist.
 
 <div align="center">
 
@@ -31,70 +32,159 @@ I'm a computer engineering student who builds websites, small web apps and the b
 
 </div>
 
+## Right now
+
+- **Researching:** PS4 payloads, ELF/Orbis binaries and network observability with **middleManPS4**, on hardware I own.
+- **Recently shipped:** **Brat Animator 5.0**, with simple and advanced editors, more lyric formats, bilingual lyrics and portable projects.
+- **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
+- **Designing:** interfaces, graphics and small Mii animations alongside the code—not as an afterthought.
+
 ## Projects
+
+### Design & Web
+
+*Sites, interfaces and visual systems: the part people see and touch.*
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas, WebCodecs" /></a>
+<a href="https://oakvx.github.io/"><img src="./assets/portfolio.png" width="100%" alt="My site: HTML, CSS and JavaScript" /></a>
 <br/>
-A lyric video editor that runs in the browser. Time your lyrics, animate them on a canvas, export MP4 or WebM.
+My console-inspired, multilingual portfolio. Plain HTML, CSS and JavaScript, custom graphics and Mii animations, with reduced-motion support.
 <br/>
-<a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a>
+<a href="https://github.com/oakvx/oakvx.github.io">Code</a> · <a href="https://oakvx.github.io/">Visit</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://oakvx.github.io/projects/synk/"><img src="./assets/synk.png" width="100%" alt="Synk: Node.js, Google Calendar" /></a>
+<a href="https://oakvx.github.io/autoOfficina/"><img src="./assets/spinotto-felice.png" width="100%" alt="Spinotto Felice: a fictional small-business website demo" /></a>
 <br/>
-A chat assistant for salons. It works out what the client wants, books it in Google Calendar, and gives staff a dashboard.
+A reusable small-business website, presented as a fully fictional EV-accessories demo. Responsive layout, light/dark themes, FAQ and saved preferences.
 <br/>
-<a href="https://oakvx.github.io/projects/synk/">Case study</a>
+<a href="https://github.com/oakvx/autoOfficina">Code</a> · <a href="https://oakvx.github.io/autoOfficina/">Live demo</a> · <a href="https://oakvx.github.io/projects/autoofficina/">Case study</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://oakvx.github.io/topGun/"><img src="./assets/top-gun.png" width="100%" alt="Top Gun Fly School: an unofficial one-file landing-page demo" /></a>
+<br/>
+An unofficial, non-affiliated landing-page demo for an ultralight flight school, built in one HTML file. Not for bookings or operational flight information.
+<br/>
+<a href="https://github.com/oakvx/topGun">Code</a> · <a href="https://oakvx.github.io/topGun/">Live demo</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://oakvxish.github.io/synkris.github.io/"><img src="./assets/synkris-site.png" width="100%" alt="Synkris: coming-soon website with interactive demonstrations" /></a>
+<br/>
+The coming-soon site for the Synkris salon assistant: three interactive scenarios, a responsive static layout, keyboard support and no trackers.
+<br/>
+<a href="https://github.com/oakvxish/synkris.github.io">Code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a>
+</td>
+</tr>
+</table>
+
+<sub><b>Demo credits:</b> Spinotto Felice's original structure and style are mine; its fictional content and AI-generated images are by <a href="https://www.albertopecchini.it">Alberto Pecchini</a>. The business is invented and the demo does not take real orders or bookings.</sub>
+
+### Backend & App Logic
+
+*Server-side systems and logic-heavy browser apps: data, timing, automation and export pipelines.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas and WebCodecs" /></a>
+<br/>
+A browser-based lyric-video studio, now at <b>v5.0</b>. LRC, TTML, Lyricsfile YAML/JSON, SRT and WebVTT; direct Canvas editing, bilingual lyrics, custom fonts and portable <code>.brat.zip</code> projects. MP4, WebM or PNG export without a processing backend.
+<br/>
+<a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://oakvx.github.io/projects/synk/"><img src="./assets/synk.png" width="100%" alt="Synk: Node.js, PostgreSQL and Google Calendar" /></a>
+<br/>
+A WhatsApp appointment assistant for salons. I worked on the Node.js intent picker, local PostgreSQL data, Google Calendar integration and management dashboard, plus experiments with quantized 4B models and llama.cpp.
+<br/>
+<a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://oakvx.github.io/projects/beautify/"><img src="./assets/beautify.png" width="100%" alt="Beautify: PHP and MySQL" /></a>
 <br/>
-Management app for salon chains: clients, appointments, staff roles and who's free when. PHP and MySQL.
+My diploma project: a multisalon CRM for clients, services, staff roles, appointments, stock and analytics. PHP/MySQL backend, per-salon data separation and shared availability checks.
 <br/>
-<a href="https://oakvx.github.io/projects/beautify/">Case study</a>
+<a href="https://github.com/oakvxish/maturita">Code</a> · <a href="https://oakvx.github.io/projects/beautify/">Case study</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://oakvx.github.io/"><img src="./assets/portfolio.png" width="100%" alt="My site: HTML, CSS, JS" /></a>
 <br/>
-My own website in plain HTML, CSS and JavaScript. Multilingual, with my own graphics and a few small animations.
-<br/>
-<a href="https://github.com/oakvx/oakvx.github.io">Code</a> · <a href="https://oakvx.github.io/">Visit</a>
+<b>The common thread.</b>
+<br/><br/>
+Whether it runs on a server or entirely in the browser, I enjoy the point where messy input becomes a clear, useful flow: a message becomes an appointment, a timestamp becomes an animation, a schedule becomes an available slot.
+<br/><br/>
+<sub>Useful first. Portable when possible. The implementation details matter.</sub>
 </td>
 </tr>
 </table>
 
-## What I use
+### Reverse Engineering
+
+*Looking under the surface, testing assumptions and keeping the evidence.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/oakvx/middleManPS4"><img src="./assets/middleman-ps4.png" width="100%" alt="middleManPS4: Python, ELF and Orbis analysis, optional Ghidra export" /></a>
+</td>
+<td width="50%" valign="top">
+<b>middleManPS4 · research / WIP · v0.15</b>
+<br/><br/>
+A PS4 payload lab and offline binary-analysis toolkit built around three questions: how a payload is loaded, what is inside the binaries and what is actually visible on the wire.
+<br/><br/>
+It includes ELF validation and sending, read-only firmware diagnostics, ELF/Orbis/PSF/NID inspection, JSON/Markdown reports, optional Ghidra export and passive network-metadata tools.
+<br/><br/>
+<sub>Tested on my own PS4 where documented. Read-only diagnostics and offline analysis; no PSN bypass or firmware-spoofing claims.</sub>
+<br/><br/>
+<a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/oakvx?tab=repositories"><b>Browse all my repositories →</b></a>
+
+</div>
+
+## Focus & toolbox
 
 <img src="./assets/toolkit.png" width="100%" alt="Four tiles: Web (HTML, CSS, JS, Canvas), Backend (Node.js, PHP, Git), Data (PostgreSQL, MySQL, SQL Server), Systems (Windows, Active Directory, PLC basics)" />
 
-**Code:** HTML, CSS, JavaScript, Node.js, PHP, Canvas, Git  
-**Databases:** PostgreSQL, MySQL, SQL Server (T-SQL)  
-**Systems:** Windows, Active Directory, IT support, industrial software, PLC basics  
-**Design:** responsive UI, visual design, accessibility, SEO, prototyping
+- **Design & Web:** responsive UI, visual design, accessibility, SEO, prototyping, HTML, CSS, JavaScript
+- **Backend & App Logic:** Node.js, PHP, Canvas, WebCodecs, MediaRecorder, IndexedDB, Git
+- **Data:** PostgreSQL, MySQL, SQL Server (T-SQL), relational data modelling
+- **Reverse Engineering:** Python, C payloads, ELF/Orbis/PSF/NID, Ghidra, passive DNS/TLS/TCP metadata
+- **Systems:** Windows, Active Directory, IT support, industrial software, PLC basics
+
+> **How I like to build:** useful over flashy · local-first when it makes sense · accessible motion · evidence over assumptions.
 
 ## Where I've been
 
 | When | What |
 | :-- | :-- |
 | **2026 →** | **Computer Engineering** at the University of Modena and Reggio Emilia (UNIMORE) |
-| **2026** | **Software & automation** at Format SRL: industrial software, PLCs, SQL Server and T-SQL |
-| **2025** | **Erasmus+** at Starbotica in Seville: IT support, Windows, Active Directory, local networks |
-| **2023–2026** | **Freelance web developer**: sites, interfaces and SEO for local businesses |
+| **Aug–Sep 2026** | **Software & automation apprentice** at Format SRL: industrial software, PLC support, SQL Server and T-SQL |
+| **2023–Jun 2026** | **Freelance web developer & SEO consultant** for local businesses around Sassuolo and Scandiano |
+| **May–Jun 2025** | **Erasmus+ at Starbotica, Seville:** IT support, educational activities, Windows, Active Directory and local networks |
+| **2021–2026** | **Computer Science & Telecommunications** at IIS A. Volta, Sassuolo; Beautify was my final diploma project |
 
-<details>
-<summary><b>Project details</b></summary>
+## After hours
 
-- **Brat Animator:** reads LRC / Enhanced LRC and TTML, handles subtitle timing, renders on Canvas, saves to IndexedDB, exports with MediaRecorder or WebCodecs. Projects are portable files.
-- **Synk:** Node.js backend, picks the client's intent from the chat, talks to Google Calendar, has a management dashboard. I also used it to play with quantized models.
-- **Beautify:** PHP backend, MySQL data model, per-salon permissions, CRUD, service durations and availability checks.
-- **Site:** static pages, responsive layouts, multiple languages, motion that respects accessibility settings.
+I write code with no particular purpose, rebuild things that already worked because I found a better way, and leave the computer on a little longer than intended.
 
-</details>
+| Channel | Currently tuned to |
+| :-- | :-- |
+| **Languages** | Italian (native) · English (C1) · Spanish (B1) · Greek (B1) · Chinese (A2) |
+| **Console side quests** | Modded Nintendo 3DS (three of them), Wii U, Wii and PlayStation 4 |
+| **Games I keep coming back to** | Rayman Legends · Yo-kai Watch 2: Bony Spirits · Just Dance 2017 |
+| **Curiosity loop** | One simple question → far too much reading → a prototype → one more refinement |
+
+<a href="https://oakvx.github.io/fuori-orario/"><b>Open my After Hours channel →</b></a>
 
 <details>
 <summary><b>My avatar, in motion</b></summary>
@@ -106,6 +196,7 @@ A few animations I made of my avatar for my website.
 <img src="./assets/mii/laughing.gif" width="125" alt="Avatar laughing" />
 <img src="./assets/mii/idlewainting.gif" width="125" alt="Avatar waiting around" />
 <img src="./assets/mii/almostfalling.gif" width="125" alt="Avatar almost falling over" />
+<img src="./assets/mii/angrystomping.gif" width="125" alt="Avatar stomping angrily" />
 </p>
 
 </details>
@@ -113,7 +204,15 @@ A few animations I made of my avatar for my website.
 <details>
 <summary><b>Leggi in italiano</b></summary>
 
-Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e faccio siti, piccole web app e backend, disegnando anche le interfacce. Ho lavorato come sviluppatore web freelance, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale con PLC e SQL Server. Sopra trovi i progetti a cui tengo di più: Brat Animator, Synk, Beautify e il mio sito.
+Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce.
+
+Ho organizzato i progetti in tre percorsi:
+
+- **Design & Web:** il mio portfolio, la demo inventata Spinotto Felice, la landing non ufficiale Top Gun Fly School e il sito coming-soon di Synkris.
+- **Backend & logica applicativa:** Brat Animator 5.0, Synk e Beautify. Non tutto gira su un server: qui metto anche gli strumenti browser con molta logica interna, come timing, export e gestione dei dati.
+- **Reverse Engineering:** middleManPS4, il mio laboratorio per payload PS4, analisi offline di file ELF/Orbis e osservabilità di rete sulla mia console.
+
+Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale, PLC e SQL Server. Fuori orario mi piacciono le console modificate, i videogiochi e le lingue straniere: oltre all'italiano e all'inglese, studio spagnolo, greco e cinese.
 
 </details>
 
