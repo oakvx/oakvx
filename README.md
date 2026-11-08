@@ -123,11 +123,14 @@ A browser-based lyric-video studio, now at <b>v5.0</b>. Multi-format lyrics, dir
 <a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
 </td>
 <td width="33.33%" valign="top">
-<a href="https://oakvx.github.io/projects/synk/"><img src="./assets/synk.png" width="100%" alt="Synk: Node.js, PostgreSQL and Google Calendar" /></a>
+<a href="https://github.com/oakvx/synkris"><img src="./assets/synk.png" width="100%" alt="synk by SYNKRIS: Node.js, PHP, PostgreSQL, Google Calendar and WhatsApp Web" /></a>
 <br/>
-A WhatsApp appointment assistant with a Node.js intent picker, PostgreSQL, Google Calendar and a management dashboard. Includes experiments with quantized 4B models and llama.cpp.
+<b>synk / SYNKRIS · 1.2.0 RC6 (testing)</b><br/>
+An on-premise salon management and appointment assistant. Node.js and PHP, PostgreSQL, Google Calendar synchronization, WhatsApp Web integration and an optional local Ollama runtime. The dashboard tracks pending and uncertain operations instead of treating them as confirmed.
 <br/>
-<a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
+<sub>Reconstructed prerelease; real-provider testing and security review are still required. Proprietary, source-available license.</sub>
+<br/>
+<a href="https://github.com/oakvx/synkris"><b>Repository</b></a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
 </td>
 <td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/projects/beautify/"><img src="./assets/beautify.png" width="100%" alt="Beautify: PHP and MySQL" /></a>
