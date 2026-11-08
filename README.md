@@ -250,7 +250,7 @@ Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE 
 Ho organizzato i progetti in tre percorsi:
 
 - **Design & Web:** il mio portfolio, la demo inventata Spinotto Felice, la landing non ufficiale Top Gun Fly School e il sito coming-soon di Synkris.
-- **Backend & logica applicativa:** Brat Animator 5.0, Synk e Beautify. Non tutto gira su un server: qui metto anche gli strumenti browser con molta logica interna, come timing, export e gestione dei dati.
+- **Backend & logica applicativa:** [synk / SYNKRIS](https://github.com/oakvx/synkris), Brat Animator e Beautify. synk è una RC di collaudo per saloni, con Node.js, PHP, PostgreSQL, integrazioni Google Calendar e WhatsApp Web; il runtime AI locale è facoltativo. Brat Animator elabora timing, animazioni ed esportazioni direttamente nel browser.
 - **Reverse Engineering:** middleManPS4, il mio laboratorio per payload PS4, analisi offline di file ELF/Orbis e osservabilità di rete sulla mia console.
 
 Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale, PLC e SQL Server. Fuori orario mi piacciono le console modificate, i videogiochi e le lingue straniere: oltre all'italiano e all'inglese, studio spagnolo, greco e cinese.
@@ -263,7 +263,8 @@ Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto 
 
 <a href="mailto:gabrielelucia07@gmail.com">Email</a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/">Portfolio</a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx">GitHub</a>
+<a href="https://github.com/oakvx">GitHub</a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/synkris">SYNKRIS</a>
 
 <sub>© 2026 Gabriele Lucia · Graphics and avatar are my own work.</sub>
 
