@@ -46,7 +46,8 @@ I'm a computer engineering student, junior software developer and graphic design
 </h2>
 
 - **Researching:** PS4 payloads, ELF/Orbis binaries and network observability with **middleManPS4**, on hardware I own.
-- **Recently shipped:** **Brat Animator 5.0**, with simple and advanced editors, more lyric formats, bilingual lyrics and portable projects.
+- **Building:** **[synk / SYNKRIS](https://github.com/oakvx/synkris)**, a local-first appointment and messaging system for salons. The current 1.2.0 RC6 is for testing, not live customer deployments.
+- **Recently updated:** **[Brat Animator](https://github.com/oakvx/bratAnimator)**, a browser lyric-video editor with kinetic compositions, synchronized lyrics and portable projects.
 - **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
 - **Designing:** interfaces, graphics and small Mii animations alongside the code—not as an afterthought.
 
