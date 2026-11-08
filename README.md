@@ -95,9 +95,9 @@ An unofficial, non-affiliated landing-page demo for an ultralight flight school,
 <td width="50%" valign="top">
 <a href="https://oakvxish.github.io/synkris.github.io/"><img src="./assets/synkris-site.png" width="100%" alt="Synkris: coming-soon website with interactive demonstrations" /></a>
 <br/>
-The coming-soon site for the Synkris salon assistant: three interactive scenarios, a responsive static layout, keyboard support and no trackers.
+A static project site with illustrative scenarios. The application itself is maintained separately in <a href="https://github.com/oakvx/synkris"><b>oakvx/synkris</b></a>; the website is not a live booking service.
 <br/>
-<a href="https://github.com/oakvxish/synkris.github.io">Code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a>
+<a href="https://github.com/oakvxish/synkris.github.io">Website code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a> · <a href="https://github.com/oakvx/synkris">Application code</a>
 </td>
 </tr>
 </table>
