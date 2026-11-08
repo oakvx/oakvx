@@ -14,6 +14,7 @@
 <a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/synkris"><b>SYNKRIS</b></a> &nbsp; · &nbsp;
 <a href="mailto:gabrielelucia07@gmail.com"><b>EMAIL</b></a>
 
 <br/>
@@ -45,7 +46,8 @@ I'm a computer engineering student, junior software developer and graphic design
 </h2>
 
 - **Researching:** PS4 payloads, ELF/Orbis binaries and network observability with **middleManPS4**, on hardware I own.
-- **Recently shipped:** **Brat Animator 5.0**, with simple and advanced editors, more lyric formats, bilingual lyrics and portable projects.
+- **Building:** **[synk / SYNKRIS](https://github.com/oakvx/synkris)**, a local-first appointment and messaging system for salons. The current 1.2.0 RC6 is for testing, not live customer deployments.
+- **Recently updated:** **[Brat Animator](https://github.com/oakvx/bratAnimator)**, a browser lyric-video editor with kinetic compositions, synchronized lyrics and portable projects.
 - **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
 - **Designing:** interfaces, graphics and small Mii animations alongside the code—not as an afterthought.
 
@@ -93,9 +95,9 @@ An unofficial, non-affiliated landing-page demo for an ultralight flight school,
 <td width="50%" valign="top">
 <a href="https://oakvxish.github.io/synkris.github.io/"><img src="./assets/synkris-site.png" width="100%" alt="Synkris: coming-soon website with interactive demonstrations" /></a>
 <br/>
-The coming-soon site for the Synkris salon assistant: three interactive scenarios, a responsive static layout, keyboard support and no trackers.
+A static project site with illustrative scenarios. The application itself is maintained separately in <a href="https://github.com/oakvx/synkris"><b>oakvx/synkris</b></a>; the website is not a live booking service.
 <br/>
-<a href="https://github.com/oakvxish/synkris.github.io">Code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a>
+<a href="https://github.com/oakvxish/synkris.github.io">Website code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a> · <a href="https://github.com/oakvx/synkris">Application code</a>
 </td>
 </tr>
 </table>
@@ -121,11 +123,14 @@ A browser-based lyric-video studio, now at <b>v5.0</b>. Multi-format lyrics, dir
 <a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
 </td>
 <td width="33.33%" valign="top">
-<a href="https://oakvx.github.io/projects/synk/"><img src="./assets/synk.png" width="100%" alt="Synk: Node.js, PostgreSQL and Google Calendar" /></a>
+<a href="https://github.com/oakvx/synkris"><img src="./assets/synk.png" width="100%" alt="synk by SYNKRIS: Node.js, PHP, PostgreSQL, Google Calendar and WhatsApp Web" /></a>
 <br/>
-A WhatsApp appointment assistant with a Node.js intent picker, PostgreSQL, Google Calendar and a management dashboard. Includes experiments with quantized 4B models and llama.cpp.
+<b>synk / SYNKRIS · 1.2.0 RC6 (testing)</b><br/>
+An on-premise salon management and appointment assistant. Node.js and PHP, PostgreSQL, Google Calendar synchronization, WhatsApp Web integration and an optional local Ollama runtime. The dashboard tracks pending and uncertain operations instead of treating them as confirmed.
 <br/>
-<a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
+<sub>Reconstructed prerelease; real-provider testing and security review are still required. Proprietary, source-available license.</sub>
+<br/>
+<a href="https://github.com/oakvx/synkris"><b>Repository</b></a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
 </td>
 <td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/projects/beautify/"><img src="./assets/beautify.png" width="100%" alt="Beautify: PHP and MySQL" /></a>
@@ -245,7 +250,7 @@ Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE 
 Ho organizzato i progetti in tre percorsi:
 
 - **Design & Web:** il mio portfolio, la demo inventata Spinotto Felice, la landing non ufficiale Top Gun Fly School e il sito coming-soon di Synkris.
-- **Backend & logica applicativa:** Brat Animator 5.0, Synk e Beautify. Non tutto gira su un server: qui metto anche gli strumenti browser con molta logica interna, come timing, export e gestione dei dati.
+- **Backend & logica applicativa:** [synk / SYNKRIS](https://github.com/oakvx/synkris), Brat Animator e Beautify. synk è una RC di collaudo per saloni, con Node.js, PHP, PostgreSQL, integrazioni Google Calendar e WhatsApp Web; il runtime AI locale è facoltativo. Brat Animator elabora timing, animazioni ed esportazioni direttamente nel browser.
 - **Reverse Engineering:** middleManPS4, il mio laboratorio per payload PS4, analisi offline di file ELF/Orbis e osservabilità di rete sulla mia console.
 
 Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale, PLC e SQL Server. Fuori orario mi piacciono le console modificate, i videogiochi e le lingue straniere: oltre all'italiano e all'inglese, studio spagnolo, greco e cinese.
@@ -258,7 +263,8 @@ Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto 
 
 <a href="mailto:gabrielelucia07@gmail.com">Email</a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/">Portfolio</a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx">GitHub</a>
+<a href="https://github.com/oakvx">GitHub</a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/synkris">SYNKRIS</a>
 
 <sub>© 2026 Gabriele Lucia · Graphics and avatar are my own work.</sub>
 
