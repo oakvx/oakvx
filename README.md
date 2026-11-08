@@ -14,6 +14,7 @@
 <a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/synkris"><b>SYNKRIS</b></a> &nbsp; · &nbsp;
 <a href="mailto:gabrielelucia07@gmail.com"><b>EMAIL</b></a>
 
 <br/>
