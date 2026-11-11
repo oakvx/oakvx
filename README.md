@@ -22,23 +22,6 @@
 <a href="https://github.com/oakvx/bratAnimator"><img alt="bratAnimator" src="https://img.shields.io/github/last-commit/oakvx/bratAnimator?style=flat-square&label=bratAnimator"/></a>
 <a href="https://github.com/oakvx/middleManPS4"><img alt="middleManPS4" src="https://img.shields.io/github/last-commit/oakvx/middleManPS4?style=flat-square&label=middleManPS4"/></a>
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=600&size=17&pause=1400&color=16bad8&center=true&vCenter=true&width=470&height=44&lines=building%20the%20interface%20people%20touch;and%20the%20logic%20behind%20it;local-first%20by%20default;evidence%20over%20assumptions" alt="building the interface people touch, and the logic behind it" />
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oakvx/oakvx/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/oakvx/oakvx/output/github-contribution-grid-snake.svg" width="100%" alt="A snake eating my contribution graph" />
-</picture>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oakvx&show_icons=true&hide_border=true&bg_color=00000000&title_color=16bad8&icon_color=16bad8&text_color=8B949E&rank_icon=github" height="150" alt="GitHub stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oakvx&layout=compact&hide_border=true&bg_color=00000000&title_color=16bad8&text_color=8B949E" height="150" alt="Top languages" />
-</p>
-
 </div>
 
 <h3>
@@ -262,7 +245,7 @@ Animations of my avatar made for my website.
 <details>
 <summary><b>How this page is made</b></summary>
 
-- One Markdown file. No CSS, no JS, no build step — GitHub renders all of it.
+- One Markdown file. No CSS, no JS, no build step, no third-party widgets — GitHub renders all of it.
 - The headings are pre-rendered PNGs; a <code>&lt;picture&gt;</code> element swaps them when your theme changes.
 - Banner, project tiles, toolkit and contact art: drawn from scratch.
 - The Mii-style avatar is mine too. He mostly idles. Sometimes he almost falls.
