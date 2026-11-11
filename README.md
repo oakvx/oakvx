@@ -1,10 +1,3 @@
-<!--
-  Gabriele Lucia — GitHub profile.
-  Look: bright white menu, cyan highlight, rounded tiles. Loosely inspired by a console home screen from the early 2010s.
-  All graphics are drawn from scratch; the Mii-style avatar is my own.
-  GitHub renders Markdown, images, tables and <details>. No custom CSS or JS.
--->
-
 <div align="center">
 
 <a href="https://oakvx.github.io/" title="Open my portfolio"><img src="./assets/welcome.png" width="100%" alt="Gabriele Lucia, software developer and graphic designer. A bright, menu-style banner with his Mii avatar and four tiles: Design, Web, Code, Systems." /></a>
@@ -29,6 +22,23 @@
 <a href="https://github.com/oakvx/bratAnimator"><img alt="bratAnimator" src="https://img.shields.io/github/last-commit/oakvx/bratAnimator?style=flat-square&label=bratAnimator"/></a>
 <a href="https://github.com/oakvx/middleManPS4"><img alt="middleManPS4" src="https://img.shields.io/github/last-commit/oakvx/middleManPS4?style=flat-square&label=middleManPS4"/></a>
 
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=600&size=17&pause=1400&color=16bad8&center=true&vCenter=true&width=470&height=44&lines=building%20the%20interface%20people%20touch;and%20the%20logic%20behind%20it;local-first%20by%20default;evidence%20over%20assumptions" alt="building the interface people touch, and the logic behind it" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oakvx/oakvx/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/oakvx/oakvx/output/github-contribution-grid-snake.svg" width="100%" alt="A snake eating my contribution graph" />
+</picture>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=oakvx&show_icons=true&hide_border=true&bg_color=00000000&title_color=16bad8&icon_color=16bad8&text_color=8B949E&rank_icon=github" height="150" alt="GitHub stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oakvx&layout=compact&hide_border=true&bg_color=00000000&title_color=16bad8&text_color=8B949E" height="150" alt="Top languages" />
+</p>
+
 </div>
 
 <h3>
@@ -38,7 +48,7 @@
 </picture>
 </h3>
 
-Computer engineering student, junior software developer and graphic designer. I work on both sides of a system: **the interface people touch and the logic behind it**. Current focus: local-first applications, consistency between a database and an external API, and evidence-driven reverse engineering.
+Computer engineering student, junior software developer and graphic designer. I work on **both sides of a system**: the interface people touch, and the logic that has to actually hold. Right now that means local-first applications, a database and an external API that never disagree, and reverse engineering driven by evidence — not vibes.
 
 <div align="center">
 
@@ -53,10 +63,10 @@ Computer engineering student, junior software developer and graphic designer. I 
 </picture>
 </h2>
 
-- **Building:** [synk / SYNKRIS](https://github.com/oakvx/synkris), an on-premise appointment and messaging system. 1.2.0-rc.6, a test release, not for live customer data.
-- **Maintaining:** [Brat Animator](https://github.com/oakvx/bratAnimator), a client-side lyric-video editor with a deterministic Canvas compositor.
-- **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4) (v0.17): PS4 payloads, ELF/Orbis analysis and network metadata, on hardware I own.
-- **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
+- ▶ **Building:** [synk / SYNKRIS](https://github.com/oakvx/synkris), an on-premise appointment and messaging system. 1.2.0-rc.6: a test release, not for live customer data.
+- ▶ **Maintaining:** [Brat Animator](https://github.com/oakvx/bratAnimator), a client-side lyric-video editor whose render farm is a browser tab.
+- ▶ **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4) (v0.17): PS4 payloads, ELF/Orbis analysis and network metadata, on hardware I own.
+- ▶ **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
 
 <h2>
 <picture>
@@ -78,7 +88,7 @@ Computer engineering student, junior software developer and graphic designer. I 
 <a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas and WebCodecs" /></a>
 <br/>
 <b>Brat Animator</b><br/>
-Static web app, no backend. Timestamp-driven Canvas 2D compositor (preview and export share the same frames), WebCodecs MP4 export with a capability probe, IndexedDB project storage, <code>.brat.zip</code> archives, PWA with a versioned service worker.
+Static web app, no backend. A timestamp-driven Canvas 2D compositor where preview and export share the exact same frames. WebCodecs MP4 export behind a runtime capability probe, IndexedDB project storage, <code>.brat.zip</code> archives, PWA with a versioned service worker.
 <br/>
 <sub>JavaScript · Canvas 2D · WebCodecs · IndexedDB · Service Worker</sub>
 <br/>
@@ -88,7 +98,7 @@ Static web app, no backend. Timestamp-driven Canvas 2D compositor (preview and e
 <a href="https://github.com/oakvx/synkris"><img src="./assets/synk.png" width="100%" alt="synk by SYNKRIS: Node.js, PHP, PostgreSQL, Google Calendar and WhatsApp Web" /></a>
 <br/>
 <b>synk / SYNKRIS</b> · 1.2.0-rc.6<br/>
-Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint prevents double booking; Google Calendar side effects go through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
+Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
 <br/>
 <sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub><br/>
 <sub>Proprietary, source-available. Real-provider testing and security review pending.</sub>
@@ -122,9 +132,9 @@ Diploma project: multi-salon CRM in PHP/MySQL covering clients, staff roles, app
 <br/>
 <b>middleManPS4</b> · research / WIP · v0.17
 <br/><br/>
-Python (stdlib only) host tooling and C payloads around three questions: how a payload is loaded, what is inside the binaries, what is visible on the wire. Includes ELF validation and sending to <code>elfldr</code>, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.
+Python (stdlib-only) host tooling and C payloads around three questions: how a payload gets loaded, what is inside the binaries, what is visible on the wire. ELF validation and delivery to <code>elfldr</code>, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.
 <br/><br/>
-<sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN bypass or firmware-spoofing claims.</sub>
+<sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN-bypass or firmware-spoofing claims. <b>Evidence or it didn't happen.</b></sub>
 <br/><br/>
 <a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a>
 </td>
@@ -202,6 +212,7 @@ Static project site with illustrative scenarios. The application lives in <a hre
 | Reverse engineering | Python, C payloads, ELF/Orbis/PSF/NID, Ghidra, passive DNS/TLS/TCP metadata |
 | Systems | Windows, Active Directory, IT support, industrial software, PLC basics |
 
+> [!TIP]
 > **Principles:** local-first when it fits · explicit states over assumed success · evidence over assumptions · accessible motion.
 
 <h2>
@@ -229,7 +240,7 @@ Static project site with illustrative scenarios. The application lives in <a hre
 | | |
 | :-- | :-- |
 | **Languages** | Italian (native) · English (C1) · Spanish (B1) · Greek (B1) · Chinese (A2) |
-| **Consoles** | Modded Nintendo 3DS (three), Wii U, Wii, PlayStation 4 |
+| **Consoles** | Modded Nintendo 3DS (three), Wii U, Wii, PlayStation 4. The home menu of a certain early-2010s console inspired the look of this page. |
 
 <a href="https://oakvx.github.io/fuori-orario/"><b>Open After Hours →</b></a>
 
@@ -249,11 +260,22 @@ Animations of my avatar made for my website.
 </details>
 
 <details>
+<summary><b>How this page is made</b></summary>
+
+- One Markdown file. No CSS, no JS, no build step — GitHub renders all of it.
+- The headings are pre-rendered PNGs; a <code>&lt;picture&gt;</code> element swaps them when your theme changes.
+- Banner, project tiles, toolkit and contact art: drawn from scratch.
+- The Mii-style avatar is mine too. He mostly idles. Sometimes he almost falls.
+- Palette: bright white menu, cyan highlight (<code>#16bad8</code>) — a quiet nod to a console home screen from the early 2010s.
+
+</details>
+
+<details>
 <summary><b>Leggi in italiano</b></summary>
 
-Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce.
+Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce: la parte che le persone toccano, e la logica che deve reggere.
 
-- **Backend e logica applicativa:** [synk / SYNKRIS](https://github.com/oakvx/synkris) (Node.js, PHP, PostgreSQL, Google Calendar, WhatsApp Web; RC di collaudo), Brat Animator (compositor Canvas e export nel browser) e Beautify.
+- **Backend e logica applicativa:** [synk / SYNKRIS](https://github.com/oakvx/synkris) (Node.js, PHP, PostgreSQL, Google Calendar, WhatsApp Web; RC di collaudo), Brat Animator (compositor Canvas ed export nel browser) e Beautify.
 - **Reverse engineering:** [middleManPS4](https://github.com/oakvx/middleManPS4), laboratorio per payload PS4, analisi offline di ELF/Orbis e osservabilità di rete sulla mia console.
 - **Design e web:** portfolio, demo Spinotto Felice, landing Top Gun Fly School e sito Synkris.
 
