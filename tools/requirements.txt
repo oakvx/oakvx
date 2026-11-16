@@ -1,0 +1,2 @@
+# Asset generation only. The README itself has no runtime dependencies.
+Pillow>=10.0
