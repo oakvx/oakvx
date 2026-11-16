@@ -1,193 +1,186 @@
 <div align="center">
 
-<a href="https://oakvx.github.io/" title="Open my portfolio"><img src="./assets/welcome.png" width="100%" alt="Gabriele Lucia, software developer and graphic designer. A bright, menu-style banner with his Mii avatar and four tiles: Design, Web, Code, Systems." /></a>
+<picture>
+<source media="(prefers-reduced-motion: reduce)" srcset="./assets/wii/menu-static.png" />
+<img src="./assets/wii/menu.gif" width="100%" alt="An animated recreation of the Wii System Menu: eight channels on a light dotted wallpaper — YAG, synk, Brat Animator, middleManPS4, Mii Channel, Wii Settings, Message Board and Internet Channel — while a Wii Remote hand pointer moves across the grid and each selected channel swells with a cyan glow." />
+</picture>
 
 <br/>
 
-<a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp; · &nbsp;
-<a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp; · &nbsp;
-<a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx/synkris"><b>SYNK</b></a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx/yag"><b>YAG</b></a> &nbsp; · &nbsp;
+<a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp;·&nbsp;
+<a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp;·&nbsp;
+<a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp;·&nbsp;
+<a href="https://github.com/oakvx/yag"><b>YAG</b></a> &nbsp;·&nbsp;
+<a href="https://github.com/oakvx/synkris"><b>SYNK</b></a> &nbsp;·&nbsp;
 <a href="mailto:gabrielelucia07@gmail.com"><b>EMAIL</b></a>
 
 <br/>
 
-<sub>Sassuolo, Italy &nbsp; · &nbsp; Computer Engineering @ UNIMORE</sub>
+<sub><b>Gabriele Lucia</b> &nbsp;·&nbsp; Sassuolo, Italy &nbsp;·&nbsp; Computer Engineering @ UNIMORE</sub>
 
 <br/>
 
-<a href="https://github.com/oakvx?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/oakvx?style=flat-square&logo=github"/></a>
-<a href="https://github.com/oakvx?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Foakvx&query=%24.public_repos&label=repositories&style=flat-square&logo=github"/></a>
-<a href="https://github.com/oakvx/synkris"><img alt="synk" src="https://img.shields.io/github/last-commit/oakvx/synkris/master?style=flat-square&label=synk"/></a>
-<a href="https://github.com/oakvx/yag"><img alt="yag" src="https://img.shields.io/github/last-commit/oakvx/yag?style=flat-square&label=yag"/></a>
-<a href="https://github.com/oakvx/bratAnimator"><img alt="bratAnimator" src="https://img.shields.io/github/last-commit/oakvx/bratAnimator?style=flat-square&label=bratAnimator"/></a>
-<a href="https://github.com/oakvx/middleManPS4"><img alt="middleManPS4" src="https://img.shields.io/github/last-commit/oakvx/middleManPS4?style=flat-square&label=middleManPS4"/></a>
+<sub>The menu above is a decorative animation; GitHub renders it as a single image. Every channel in the grid below is an ordinary, clickable link.</sub>
 
 </div>
 
-<h3>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/hello-dark.png" />
-<img src="./assets/headings/hello-light.png" width="194" height="42" alt="Hi, I'm Gabriele." />
-</picture>
-</h3>
-
-Computer engineering student, software developer and graphic designer. I work on **both sides of a system**: the interface people touch, and the logic that has to hold up under real-world conditions. My current focus is local-first software, AI infrastructure, reliable appointment workflows, browser-based creative tools and evidence-driven reverse engineering.
-
-<div align="center">
-
-<img src="./assets/mii/standing.gif" width="115" alt="My Mii avatar, standing and waiting" />
-
-</div>
+<a id="home-menu" name="home-menu"></a>
 
 <h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/right-now-dark.png" />
-<img src="./assets/headings/right-now-light.png" width="159" height="48" alt="Right now" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/home-menu-dark.png" />
+<img src="./assets/wii/headings/home-menu-light.png" width="184" height="48" alt="Home Menu" />
 </picture>
 </h2>
 
-- ▶ **Building:** [YAG — Yet Another Gateway](https://github.com/oakvx/yag), an experimental C17 AI gateway with multi-backend routing, protocol adapters, a web console and an optional desktop client.
-- ▶ **Developing:** [synk](https://github.com/oakvx/synkris), an on-premise salon booking and messaging platform integrating Google Calendar and WhatsApp. The current release candidate is for testing, not live customer data.
-- ▶ **Designing:** [Brat Animator](https://github.com/oakvx/bratAnimator), an entirely client-side lyric-video editor with a Windows 7-inspired desktop powered by 7.css.
-- ▶ **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4), a PS4 payload and offline analysis toolkit with evidence-tagged findings.
-- ▶ **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
+<table width="100%">
+<tr>
+<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="100%" alt="YAG channel — an AI gateway written in C17, with OpenAI- and Anthropic-compatible protocol adapters." /></a></td>
+<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="100%" alt="synk channel — an on-premise salon booking and messaging platform with Google Calendar and WhatsApp." /></a></td>
+<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="100%" alt="Brat Animator channel — a local-only lyric-video studio that runs entirely in the browser." /></a></td>
+<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="100%" alt="middleManPS4 channel — PS4 payload tooling and offline ELF, Orbis and NID analysis." /></a></td>
+</tr>
+<tr>
+<td width="25%" align="center" valign="top"><a href="#mii-channel"><img src="./assets/wii/channels/mii.png" width="100%" alt="Mii Channel — about Gabriele Lucia, with his own Mii avatar standing in the plaza." /></a></td>
+<td width="25%" align="center" valign="top"><a href="#wii-settings"><img src="./assets/wii/channels/settings.png" width="100%" alt="Wii Settings — the languages, frameworks and tools Gabriele works with." /></a></td>
+<td width="25%" align="center" valign="top"><a href="#message-board"><img src="./assets/wii/channels/board.png" width="100%" alt="Message Board — current projects, release candidates and study notes." /></a></td>
+<td width="25%" align="center" valign="top"><a href="#internet-channel"><img src="./assets/wii/channels/internet.png" width="100%" alt="Internet Channel — links to the portfolio, case studies and contact pages." /></a></td>
+</tr>
+</table>
+
+<sub><a href="https://github.com/oakvx/yag"><b>YAG</b></a> · AI infrastructure &nbsp;|&nbsp; <a href="https://github.com/oakvx/synkris"><b>synk</b></a> · booking &amp; messaging &nbsp;|&nbsp; <a href="https://github.com/oakvx/bratAnimator"><b>Brat Animator</b></a> · creative tooling &nbsp;|&nbsp; <a href="https://github.com/oakvx/middleManPS4"><b>middleManPS4</b></a> · reverse engineering &nbsp;|&nbsp; <a href="#mii-channel"><b>Mii Channel</b></a> · about me &nbsp;|&nbsp; <a href="#wii-settings"><b>Wii Settings</b></a> · toolbox &nbsp;|&nbsp; <a href="#message-board"><b>Message Board</b></a> · activity &nbsp;|&nbsp; <a href="#internet-channel"><b>Internet Channel</b></a> · links</sub>
+
+<a id="mii-channel" name="mii-channel"></a>
 
 <h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/projects-dark.png" />
-<img src="./assets/headings/projects-light.png" width="130" height="48" alt="Projects" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/mii-channel-dark.png" />
+<img src="./assets/wii/headings/mii-channel-light.png" width="178" height="48" alt="Mii Channel" />
 </picture>
 </h2>
 
-<h3>
+<table width="100%">
+<tr>
+<td width="44%" valign="top">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/backend-app-logic-dark.png" />
-<img src="./assets/headings/backend-app-logic-light.png" width="264" height="42" alt="Backend &amp; App Logic" />
+<source media="(prefers-reduced-motion: reduce)" srcset="./assets/wii/mii-channel.png" />
+<img src="./assets/wii/mii-channel.gif" width="100%" alt="The Mii Channel plaza with my own Mii — brown hair, purple cat-motif sweater, blue jeans — waiting patiently on a light blue floor." />
 </picture>
-</h3>
+</td>
+<td width="56%" valign="top">
 
-<table>
-<tr>
-<td width="100%" valign="top">
-<a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental
-<br/><br/>
-An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.
-<br/><br/>
-<sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub>
-<br/>
-<sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub>
-<br/><br/>
-<a href="https://github.com/oakvx/yag"><b>Repository</b></a> · <a href="https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md">Architecture &amp; status</a>
+<p><b>Gabriele Lucia</b> — computer engineering student, software developer and graphic designer. I work on <b>both sides of a system</b>: the interface people touch, and the logic that has to hold up under real-world conditions.</p>
+<p>My current focus is local-first software, AI infrastructure, reliable appointment workflows, browser-based creative tools and evidence-driven reverse engineering.</p>
+<ul>
+<li><b>Software development</b> — from C17 services and PostgreSQL constraints to PHP dashboards and static sites.</li>
+<li><b>UI and graphic design</b> — layouts, typography, icon systems, Canvas 2D graphics, accessible motion.</li>
+<li><b>AI infrastructure</b> — an experimental multi-backend gateway with protocol adapters and operational limits.</li>
+<li><b>Reverse engineering</b> — read-only diagnostics, offline binary analysis and evidence-tagged findings.</li>
+</ul>
+<p>Studying <b>Computer Engineering</b> at the University of Modena and Reggio Emilia (UNIMORE). Based in Sassuolo, Italy.</p>
+<p><sub><a href="https://oakvx.github.io/chi-sono/">More about me</a> · <a href="https://oakvx.github.io/fuori-orario/">After Hours</a> · <a href="mailto:gabrielelucia07@gmail.com">Email</a></sub></p>
+
 </td>
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="33.33%" valign="top">
-<a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas and WebCodecs" /></a>
-<br/>
-<b>Brat Animator</b><br/>
-Local-only lyric-video studio with a Windows 7 desktop-style UI built on vendored <code>7.css</code>. A timestamp-driven Canvas 2D compositor keeps preview and export aligned; WebCodecs enables MP4 export when supported. Projects use IndexedDB and portable <code>.brat.zip</code> archives; PWA offline support included.
-<br/>
-<sub>JavaScript · 7.css · Canvas 2D · WebCodecs · IndexedDB · PWA</sub>
-<br/>
-<a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
-</td>
-<td width="33.33%" valign="top">
-<a href="https://github.com/oakvx/synkris"><img src="./assets/synk.png" width="100%" alt="synk by SYNKRIS: Node.js, PHP, PostgreSQL, Google Calendar and WhatsApp Web" /></a>
-<br/>
-<b>synk</b> (formerly SYNKRIS) · 1.2.0-rc.6<br/>
-Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
-<br/>
-<sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub><br/>
-<sub>Proprietary, source-available. Real-provider testing and security review pending.</sub>
-<br/>
-<a href="https://github.com/oakvx/synkris"><b>Repository</b></a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
-</td>
-<td width="33.33%" valign="top">
-<a href="https://oakvx.github.io/projects/beautify/"><img src="./assets/beautify.png" width="100%" alt="Beautify: PHP and MySQL" /></a>
-<br/>
-<b>Beautify</b><br/>
-Diploma project: multi-salon CRM in PHP/MySQL covering clients, staff roles, appointments, stock and analytics, with per-salon data separation and shared availability checks.
-<br/>
-<sub>PHP · MySQL</sub>
-<br/>
-<a href="https://github.com/oakvxish/maturita">Code</a> · <a href="https://oakvx.github.io/projects/beautify/">Case study</a>
-</td>
-</tr>
-</table>
+### Career & education
 
-<h3>
+| When | What |
+| :-- | :-- |
+| **2026 →** | **Computer Engineering**, University of Modena and Reggio Emilia (UNIMORE) |
+| **Aug–Sep 2026** | **Software & automation apprentice**, Format SRL: industrial software, PLC support, SQL Server, T-SQL |
+| **2023–Jun 2026** | **Freelance web developer & SEO consultant** for local businesses around Sassuolo and Scandiano |
+| **May–Jun 2025** | **Erasmus+ at Starbotica, Seville:** IT support, Windows, Active Directory, local networks |
+| **2021–2026** | **Computer Science & Telecommunications**, IIS A. Volta, Sassuolo; Beautify was my diploma project |
+
+<a id="software-channels" name="software-channels"></a>
+
+<h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/reverse-engineering-dark.png" />
-<img src="./assets/headings/reverse-engineering-light.png" width="252" height="42" alt="Reverse Engineering" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/software-channels-dark.png" />
+<img src="./assets/wii/headings/software-channels-light.png" width="277" height="48" alt="Software Channels" />
 </picture>
-</h3>
+</h2>
 
-<table>
+### AI &amp; infrastructure
+
+<table width="100%">
 <tr>
-<td width="100%" valign="top">
-<a href="https://github.com/oakvx/middleManPS4"><img src="./assets/middleman-ps4.png" width="100%" alt="middleManPS4: Python, ELF and Orbis analysis, optional Ghidra export" /></a>
-<br/>
-<b>middleManPS4</b> · research / WIP · v0.17
-<br/><br/>
-Python (stdlib-only) host tooling and C payloads around three questions: how a payload gets loaded, what is inside the binaries, what is visible on the wire. ELF validation and delivery to <code>elfldr</code>, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.
-<br/><br/>
-<sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN-bypass or firmware-spoofing claims. <b>Evidence or it didn't happen.</b></sub>
-<br/><br/>
-<a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a>
+<td width="22%" valign="top"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="100%" alt="YAG channel" /></a></td>
+<td width="78%" valign="top">
+
+<p><a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental · release candidate <code>v0.1.0-rc.2</code></p>
+<p>An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.</p>
+<p><sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub></p>
+<p><sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub></p>
+<p><sub><a href="https://github.com/oakvx/yag">Repository</a> · <a href="https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md">Architecture &amp; status</a></sub></p>
+
 </td>
 </tr>
 </table>
 
-<h3>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/design-web-dark.png" />
-<img src="./assets/headings/design-web-light.png" width="185" height="42" alt="Design &amp; Web" />
-</picture>
-</h3>
+### Backend &amp; app logic
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
-<a href="https://oakvx.github.io/"><img src="./assets/portfolio.png" width="100%" alt="My site: HTML, CSS and JavaScript" /></a>
-<br/>
-<b>Portfolio</b><br/>
-Static site, no build step: vanilla HTML/CSS/JS, generated EN pages, CI checks for links, SEO, accessibility and sitemap, reduced-motion support.
-<br/>
-<a href="https://github.com/oakvx/oakvx.github.io">Code</a> · <a href="https://oakvx.github.io/">Visit</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://oakvx.github.io/autoOfficina/"><img src="./assets/spinotto-felice.png" width="100%" alt="Spinotto Felice: a fictional small-business website demo" /></a>
-<br/>
-<b>Spinotto Felice</b> (fictional demo)<br/>
-Reusable small-business site: responsive layout, light/dark themes, FAQ, saved preferences.
-<br/>
-<a href="https://github.com/oakvx/autoOfficina">Code</a> · <a href="https://oakvx.github.io/autoOfficina/">Live demo</a> · <a href="https://oakvx.github.io/projects/autoofficina/">Case study</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://oakvx.github.io/topGun/"><img src="./assets/top-gun.png" width="100%" alt="Top Gun Fly School: an unofficial one-file landing-page demo" /></a>
-<br/>
-<b>Top Gun Fly School</b> (unofficial demo)<br/>
-Single-file landing page. Not for bookings or flight information.
-<br/>
-<a href="https://github.com/oakvx/topGun">Code</a> · <a href="https://oakvx.github.io/topGun/">Live demo</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://oakvxish.github.io/synkris.github.io/"><img src="./assets/synkris-site.png" width="100%" alt="Synkris: coming-soon website with interactive demonstrations" /></a>
-<br/>
-<b>Synkris site</b><br/>
-Static project site with illustrative scenarios. The application lives in <a href="https://github.com/oakvx/synkris"><b>oakvx/synkris</b></a>; the site is not a booking service.
-<br/>
-<a href="https://github.com/oakvxish/synkris.github.io">Website code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a>
+<td width="22%" valign="top"><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="100%" alt="synk channel" /></a></td>
+<td width="78%" valign="top">
+
+<p><a href="https://github.com/oakvx/synkris"><b>synk</b></a> (formerly SYNKRIS) · release candidate <code>1.2.0-rc.6</code></p>
+<p>An on-premise salon booking and messaging platform integrating Google Calendar and WhatsApp. The current release candidate is for testing, not live customer data.</p>
+<p>Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.</p>
+<p><sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub></p>
+<p><sub>Proprietary, source-available. Real-provider testing and security review pending.</sub></p>
+<p><sub><a href="https://github.com/oakvx/synkris">Repository</a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a></sub></p>
+
 </td>
 </tr>
 </table>
+
+**Beautify** — diploma project: a multi-salon CRM in PHP/MySQL covering clients, staff roles, appointments, stock and analytics, with per-salon data separation and shared availability checks.
+
+<sub>PHP · MySQL · <a href="https://github.com/oakvxish/maturita">Code</a> · <a href="https://oakvx.github.io/projects/beautify/">Case study</a></sub>
+
+### Creative tools
+
+<table width="100%">
+<tr>
+<td width="22%" valign="top"><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="100%" alt="Brat Animator channel" /></a></td>
+<td width="78%" valign="top">
+
+<p><a href="https://github.com/oakvx/bratAnimator"><b>Brat Animator</b></a> · live</p>
+<p>A local-only lyric-video studio with a Windows 7 desktop-style UI built on vendored <code>7.css</code>. A timestamp-driven Canvas 2D compositor keeps preview and export aligned; WebCodecs enables MP4 export when supported. Projects use IndexedDB and portable <code>.brat.zip</code> archives; PWA offline support included.</p>
+<p><sub>JavaScript · 7.css · Canvas 2D · WebCodecs · IndexedDB · PWA</sub></p>
+<p><sub><a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a></sub></p>
+
+</td>
+</tr>
+</table>
+
+### Reverse engineering
+
+<table width="100%">
+<tr>
+<td width="22%" valign="top"><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="100%" alt="middleManPS4 channel" /></a></td>
+<td width="78%" valign="top">
+
+<p><a href="https://github.com/oakvx/middleManPS4"><b>middleManPS4</b></a> · research / WIP · <code>v0.17</code></p>
+<p>Python (stdlib-only) host tooling and C payloads around three questions: how a payload gets loaded, what is inside the binaries, what is visible on the wire. ELF validation and delivery to <code>elfldr</code>, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.</p>
+<p><sub>Python · C payloads · ELF / Orbis / PSF / NID · Ghidra · passive DNS/TLS/TCP metadata</sub></p>
+<p><sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN-bypass or firmware-spoofing claims. <b>Evidence or it didn't happen.</b></sub></p>
+<p><sub><a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a></sub></p>
+
+</td>
+</tr>
+</table>
+
+### Design &amp; web
+
+- **Portfolio** — static site, no build step: vanilla HTML/CSS/JS, generated EN pages, CI checks for links, SEO, accessibility and sitemap, reduced-motion support. <sub><a href="https://github.com/oakvx/oakvx.github.io">Code</a> · <a href="https://oakvx.github.io/">Visit</a></sub>
+- **Spinotto Felice** (fictional demo) — reusable small-business site: responsive layout, light/dark themes, FAQ, saved preferences. <sub><a href="https://github.com/oakvx/autoOfficina">Code</a> · <a href="https://oakvx.github.io/autoOfficina/">Live demo</a> · <a href="https://oakvx.github.io/projects/autoofficina/">Case study</a></sub>
+- **Top Gun Fly School** (unofficial demo) — single-file landing page. Not for bookings or flight information. <sub><a href="https://github.com/oakvx/topGun">Code</a> · <a href="https://oakvx.github.io/topGun/">Live demo</a></sub>
+- **Synkris site** — static project site with illustrative scenarios. The application lives in <a href="https://github.com/oakvx/synkris">oakvx/synkris</a>; the site is not a booking service. <sub><a href="https://github.com/oakvxish/synkris.github.io">Website code</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Visit</a></sub>
 
 <sub><b>Demo credits:</b> Spinotto Felice's structure and style are mine; its fictional content and AI-generated images are by <a href="https://www.albertopecchini.it">Alberto Pecchini</a>. The business is invented; the demo takes no real orders or bookings.</sub>
 
@@ -197,14 +190,16 @@ Static project site with illustrative scenarios. The application lives in <a hre
 
 </div>
 
+<a id="wii-settings" name="wii-settings"></a>
+
 <h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/focus-toolbox-dark.png" />
-<img src="./assets/headings/focus-toolbox-light.png" width="241" height="48" alt="Focus &amp; toolbox" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/wii-settings-dark.png" />
+<img src="./assets/wii/headings/wii-settings-light.png" width="186" height="48" alt="Wii Settings" />
 </picture>
 </h2>
 
-<img src="./assets/toolkit.png" width="100%" alt="Four tiles: Web (HTML, CSS, JS, Canvas), Backend (Node.js, PHP, Git), Data (PostgreSQL, MySQL, SQL Server), Systems (Windows, Active Directory, PLC basics)" />
+<img src="./assets/wii/settings.png" width="100%" alt="The Wii Settings screen: six white panels for Web, Backend and AI, Data, Reverse engineering, Systems and Principles, with the Web panel outlined in cyan and tool names under each title." />
 
 | Area | Tools |
 | :-- | :-- |
@@ -217,86 +212,133 @@ Static project site with illustrative scenarios. The application lives in <a hre
 > [!TIP]
 > **Principles:** local-first when it fits · explicit states over assumed success · evidence over assumptions · accessible motion.
 
+<a id="message-board" name="message-board"></a>
+
 <h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/where-ive-been-dark.png" />
-<img src="./assets/headings/where-ive-been-light.png" width="238" height="48" alt="Where I've been" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/message-board-dark.png" />
+<img src="./assets/wii/headings/message-board-light.png" width="229" height="48" alt="Message Board" />
 </picture>
 </h2>
 
-| When | What |
-| :-- | :-- |
-| **2026 →** | **Computer Engineering**, University of Modena and Reggio Emilia (UNIMORE) |
-| **Aug–Sep 2026** | **Software & automation apprentice**, Format SRL: industrial software, PLC support, SQL Server, T-SQL |
-| **2023–Jun 2026** | **Freelance web developer & SEO consultant** for local businesses around Sassuolo and Scandiano |
-| **May–Jun 2025** | **Erasmus+ at Starbotica, Seville:** IT support, Windows, Active Directory, local networks |
-| **2021–2026** | **Computer Science & Telecommunications**, IIS A. Volta, Sassuolo; Beautify was my diploma project |
+<img src="./assets/wii/message-board.png" width="100%" alt="A Wii Message Board with six pinned notes: YAG v0.1.0-rc.2 now building, synk 1.2.0-rc.6 in testing, middleManPS4 v0.17 in research, Brat Animator in creative, Computer Engineering at UNIMORE from 2026, and the portfolio and demos under design." />
+
+| Channel | State | Last release |
+| :-- | :-- | :-- |
+| **YAG** | Experimental; real-model qualification in progress | [`v0.1.0-rc.2`](https://github.com/oakvx/yag/releases) · 15 Nov 2026 |
+| **synk** | Release candidate for testing; not live customer data | [`1.2.0-rc.6`](https://github.com/oakvx/synkris/releases) · 9 Nov 2026 |
+| **Brat Animator** | Live on GitHub Pages; no tagged release yet | [Repository](https://github.com/oakvx/bratAnimator) |
+| **middleManPS4** | Research / WIP; tested on one console | [`v0.17`](https://github.com/oakvx/middleManPS4) · in the README |
+| **Portfolio** | Live; CI checks links, SEO, accessibility, sitemap | [oakvx.github.io](https://oakvx.github.io/) |
+
+<sub>Release and commit data checked on 16 November 2026; nothing on this board is invented. Live history: <a href="https://github.com/oakvx/yag/commits">YAG</a> · <a href="https://github.com/oakvx/synkris/commits">synk</a> · <a href="https://github.com/oakvx/bratAnimator/commits">Brat Animator</a> · <a href="https://github.com/oakvx/middleManPS4/commits">middleManPS4</a>.</sub>
+
+<a id="internet-channel" name="internet-channel"></a>
 
 <h2>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/after-hours-dark.png" />
-<img src="./assets/headings/after-hours-light.png" width="169" height="48" alt="After hours" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/internet-channel-dark.png" />
+<img src="./assets/wii/headings/internet-channel-light.png" width="246" height="48" alt="Internet Channel" />
+</picture>
+</h2>
+
+<img src="./assets/wii/internet-channel.png" width="100%" alt="The Wii Internet Channel: a browser window pointed at oakvx.github.io, with a globe and shortcuts for projects, case studies and contact." />
+
+| Bookmark | What is there |
+| :-- | :-- |
+| [oakvx.github.io](https://oakvx.github.io/) | Portfolio home |
+| [Chi sono](https://oakvx.github.io/chi-sono/) | About me, in Italian |
+| [Fuori orario](https://oakvx.github.io/fuori-orario/) | After Hours |
+| [Case study: Brat Animator](https://oakvx.github.io/projects/brat-animator/) | How the lyric-video editor is put together |
+| [Case study: synk](https://oakvx.github.io/projects/synk/) | Booking, outbox and compensation design |
+| [Case study: Beautify](https://oakvx.github.io/projects/beautify/) | The multi-salon CRM diploma project |
+| [Case study: Spinotto Felice](https://oakvx.github.io/projects/autoofficina/) | The fictional shop demo |
+| [bratAnimator](https://oakvx.github.io/bratAnimator/) | Live lyric-video editor |
+| [autoOfficina](https://oakvx.github.io/autoOfficina/) | Spinotto Felice demo |
+| [topGun](https://oakvx.github.io/topGun/) | Top Gun Fly School demo |
+| [Synkris site](https://oakvxish.github.io/synkris.github.io/) | Project site |
+| [GitHub](https://github.com/oakvx?tab=repositories) | All repositories |
+| [Email](mailto:gabrielelucia07@gmail.com) | gabrielelucia07@gmail.com |
+
+<a id="after-hours" name="after-hours"></a>
+
+<h2>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wii/headings/after-hours-dark.png" />
+<img src="./assets/wii/headings/after-hours-light.png" width="185" height="48" alt="After Hours" />
 </picture>
 </h2>
 
 | | |
 | :-- | :-- |
 | **Languages** | Italian (native) · English (C1) · Spanish (B1) · Greek (B1) · Chinese (A2) |
-| **Consoles** | Modded Nintendo 3DS (three), Wii U, Wii, PlayStation 4. The home menu of a certain early-2010s console inspired the look of this page. |
+| **Consoles** | Modded Nintendo 3DS (three), Wii U, Wii, PlayStation 4. The home menu of a certain mid-2000s console is the reason this page exists. |
 
 <a href="https://oakvx.github.io/fuori-orario/"><b>Open After Hours →</b></a>
 
 <details>
-<summary><b>My avatar, in motion</b></summary>
+<summary><b>My Mii, in motion</b></summary>
 
-Animations of my avatar made for my website.
+<br/>
+
+These are animations of my own avatar, made for my website and reused here unchanged — same face, same purple cat sweater, same tendency to almost fall over.
 
 <p align="center">
-<img src="./assets/mii/dancing.gif" width="125" alt="Avatar dancing" />
-<img src="./assets/mii/laughing.gif" width="125" alt="Avatar laughing" />
-<img src="./assets/mii/idlewainting.gif" width="125" alt="Avatar waiting around" />
-<img src="./assets/mii/almostfalling.gif" width="125" alt="Avatar almost falling over" />
-<img src="./assets/mii/angrystomping.gif" width="125" alt="Avatar stomping angrily" />
+<img src="./assets/mii/standing.gif" width="110" alt="My Mii standing and waiting" />
+<img src="./assets/mii/dancing.gif" width="110" alt="My Mii dancing" />
+<img src="./assets/mii/laughing.gif" width="110" alt="My Mii laughing" />
+<img src="./assets/mii/idlewainting.gif" width="110" alt="My Mii waiting around" />
+<img src="./assets/mii/almostfalling.gif" width="110" alt="My Mii almost falling over" />
+<img src="./assets/mii/angrystomping.gif" width="110" alt="My Mii stomping angrily" />
 </p>
 
 </details>
 
+
 <details>
 <summary><b>How this page is made</b></summary>
 
-- One Markdown file. No CSS, no JS, no build step, no third-party widgets — GitHub renders all of it.
-- The headings are pre-rendered PNGs; a <code>&lt;picture&gt;</code> element swaps them when your theme changes.
-- Banner, project tiles, toolkit and contact art: drawn from scratch.
-- The Mii-style avatar is mine too. He mostly idles. Sometimes he almost falls.
-- Palette: bright white menu, cyan highlight (<code>#16bad8</code>) — a quiet nod to a console home screen from the early 2010s.
+<br/>
+
+- One Markdown file. No CSS, no JavaScript, no build step, no external services at runtime — GitHub renders all of it, and every image is a file in this repository.
+- The System Menu, channel frames, footer, screens and headings are drawn from scratch with Python and Pillow by [`tools/build_wii_assets.py`](./tools/build_wii_assets.py). Geometry, palette and wording follow the original Wii System Menu: dotted wallpaper, glossy white channel frames, cyan selection glow, silver footer and the central tray.
+- The menu and Mii Channel animations are GIFs generated by the same script. A &lt;picture&gt; element offers the static frame when <code>prefers-reduced-motion</code> is set; if GitHub ignores that hint, the animation is still calm and loops with a pause.
+- An animated image cannot contain clickable hotspots on GitHub, so the hero is decorative and the real, individually linked channels live in the Home Menu table below it.
+- My Mii is my own artwork from [`assets/mii`](./assets/mii): the same frames are reused, never redrawn. Typefaces: Nunito and Nunito Sans, SIL Open Font License (see [`tools/fonts`](./tools/fonts)).
+- Palette: warm white menu, silver hardware, cyan highlight (`#16b6dd`) — a quiet nod to a console home screen from 2006.
+- This is a personal tribute. Not affiliated with Nintendo; Wii is a trademark of Nintendo.
 
 </details>
 
 <details>
 <summary><b>Leggi in italiano</b></summary>
 
+<br/>
+
 Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce: la parte che le persone toccano, e la logica che deve reggere.
 
-- **Infrastruttura AI:** [YAG](https://github.com/oakvx/yag), gateway sperimentale in C17 per autenticazione, routing di modelli, adattamento dei protocolli e gestione di più backend.
-- **Backend e logica applicativa:** [synk](https://github.com/oakvx/synkris), sistema on-premise per appuntamenti, Google Calendar e WhatsApp (release candidate di collaudo); Beautify.
+- **Infrastruttura AI:** [YAG](https://github.com/oakvx/yag), gateway sperimentale in C17 per autenticazione, routing di modelli, adattamento dei protocolli e gestione di più backend. Include una console React/TypeScript e un client desktop opzionale; compatibilità con modelli reali e sicurezza di produzione ancora in qualifica.
+- **Backend e logica applicativa:** [synk](https://github.com/oakvx/synkris), sistema on-premise per appuntamenti, Google Calendar e WhatsApp (release candidate di collaudo); [Beautify](https://oakvx.github.io/projects/beautify/), CRM multi-salone del progetto di maturità.
 - **Interfacce e creatività:** [Brat Animator](https://github.com/oakvx/bratAnimator), editor video interamente nel browser con desktop ispirato a Windows 7 e libreria 7.css.
-- **Reverse engineering:** [middleManPS4](https://github.com/oakvx/middleManPS4), laboratorio per payload PS4, analisi offline di ELF/Orbis e osservabilità di rete sulla mia console.
+- **Reverse engineering:** [middleManPS4](https://github.com/oakvx/middleManPS4), laboratorio per payload PS4, analisi offline di ELF/Orbis e osservabilità di rete sulla mia console. Solo diagnostica in lettura, nessuna dichiarazione di bypass PSN o spoofing firmware.
 - **Design e web:** portfolio, demo Spinotto Felice, landing Top Gun Fly School e sito Synkris.
 
 Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale, PLC e SQL Server.
+
+Questa pagina è un tributo personale al menu di una console del 2006: ogni grafica è disegnata da zero, il mio Mii è il mio, e il menu animato è un'immagine decorativa mentre i canali della griglia sono link veri.
 
 </details>
 
 <div align="center">
 
-<a href="mailto:gabrielelucia07@gmail.com"><img src="./assets/contact.png" width="100%" alt="Got a project, a job or a weird idea? gabrielelucia07@gmail.com" /></a>
+<a href="mailto:gabrielelucia07@gmail.com"><img src="./assets/wii/contact.png" width="100%" alt="A Wii Message Board note reading: Got a project, a job or a weird idea? gabrielelucia07@gmail.com, with a circular portrait of my Mii." /></a>
 
-<a href="mailto:gabrielelucia07@gmail.com">Email</a> &nbsp; · &nbsp;
-<a href="https://oakvx.github.io/">Portfolio</a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx">GitHub</a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx/synkris">synk</a> &nbsp; · &nbsp;
+<a href="mailto:gabrielelucia07@gmail.com">Email</a> &nbsp;·&nbsp;
+<a href="https://oakvx.github.io/">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://github.com/oakvx">GitHub</a> &nbsp;·&nbsp;
+<a href="https://github.com/oakvx/synkris">synk</a> &nbsp;·&nbsp;
 <a href="https://github.com/oakvx/yag">YAG</a>
 
-<sub>© 2026 Gabriele Lucia · Graphics and avatar are my own work.</sub>
+<sub>© 2026 Gabriele Lucia · Graphics, Mii and code are my own work. Wii is a trademark of Nintendo; this is an unofficial tribute.</sub>
 
 </div>
