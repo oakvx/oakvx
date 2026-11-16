@@ -400,6 +400,15 @@ def render_channel(
     # frame
     p.fill_rounded_gradient(box, radius, [(0, (255, 255, 255, 255)), (0.55, (253, 253, 252, 255)), (1, (244, 245, 243, 255))])
     p.rrect(box, radius, outline=FRAME_BORDER, width=max(1, h * 0.009))
+    if glow > 0.01:
+        # crisp cyan selection edge just outside the white frame
+        g = max(0.0, min(1.0, glow))
+        p.rrect(
+            (box[0] - 2, box[1] - 2, box[2] + 2, box[3] + 2),
+            radius + 2,
+            outline=(22, 182, 216, int(235 * g)),
+            width=max(1.5, h * 0.013),
+        )
 
     inset = max(2.4, h * 0.033)
     art_box = (box[0] + inset, box[1] + inset, box[2] - inset, box[3] - inset)
