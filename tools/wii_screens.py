@@ -331,10 +331,7 @@ def render_internet(W=1000, H=330):
     p.text((92, 57), "Internet Channel", p.f("round", 800, 21), (52, 66, 71, 255), anchor="ls")
     p.text((92, 74), "oakvx.github.io", p.f("ui", 600, 11), (122, 139, 144, 255), anchor="ls")
 
-    # round browser buttons, like the console's chrome
-    for i, glyph in enumerate(("back", "forward", "reload")):
-        cx = W - 66 - i * 32 if glyph != "reload" else W - 66
-        # order left to right: reload, back, forward
+    # round browser buttons, like the console's chrome: reload, back, forward
     for i, glyph in enumerate(("reload", "back", "forward")):
         cx = W - 66 - (2 - i) * 32
         cy = 58
