@@ -7,7 +7,8 @@
 <a href="https://oakvx.github.io/"><b>PORTFOLIO</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/chi-sono/"><b>ABOUT</b></a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/fuori-orario/"><b>AFTER HOURS</b></a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx/synkris"><b>SYNKRIS</b></a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/synkris"><b>SYNK</b></a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/yag"><b>YAG</b></a> &nbsp; · &nbsp;
 <a href="mailto:gabrielelucia07@gmail.com"><b>EMAIL</b></a>
 
 <br/>
@@ -18,7 +19,8 @@
 
 <a href="https://github.com/oakvx?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/oakvx?style=flat-square&logo=github"/></a>
 <a href="https://github.com/oakvx?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Foakvx&query=%24.public_repos&label=repositories&style=flat-square&logo=github"/></a>
-<a href="https://github.com/oakvx/synkris"><img alt="synkris" src="https://img.shields.io/github/last-commit/oakvx/synkris/master?style=flat-square&label=synkris"/></a>
+<a href="https://github.com/oakvx/synkris"><img alt="synk" src="https://img.shields.io/github/last-commit/oakvx/synkris/master?style=flat-square&label=synk"/></a>
+<a href="https://github.com/oakvx/yag"><img alt="yag" src="https://img.shields.io/github/last-commit/oakvx/yag?style=flat-square&label=yag"/></a>
 <a href="https://github.com/oakvx/bratAnimator"><img alt="bratAnimator" src="https://img.shields.io/github/last-commit/oakvx/bratAnimator?style=flat-square&label=bratAnimator"/></a>
 <a href="https://github.com/oakvx/middleManPS4"><img alt="middleManPS4" src="https://img.shields.io/github/last-commit/oakvx/middleManPS4?style=flat-square&label=middleManPS4"/></a>
 
@@ -31,7 +33,7 @@
 </picture>
 </h3>
 
-Computer engineering student, junior software developer and graphic designer. I work on **both sides of a system**: the interface people touch, and the logic that has to actually hold. Right now that means local-first applications, a database and an external API that never disagree, and reverse engineering driven by evidence — not vibes.
+Computer engineering student, software developer and graphic designer. I work on **both sides of a system**: the interface people touch, and the logic that has to hold up under real-world conditions. My current focus is local-first software, AI infrastructure, reliable appointment workflows, browser-based creative tools and evidence-driven reverse engineering.
 
 <div align="center">
 
@@ -46,9 +48,10 @@ Computer engineering student, junior software developer and graphic designer. I 
 </picture>
 </h2>
 
-- ▶ **Building:** [synk / SYNKRIS](https://github.com/oakvx/synkris), an on-premise appointment and messaging system. 1.2.0-rc.6: a test release, not for live customer data.
-- ▶ **Maintaining:** [Brat Animator](https://github.com/oakvx/bratAnimator), a client-side lyric-video editor whose render farm is a browser tab.
-- ▶ **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4) (v0.17): PS4 payloads, ELF/Orbis analysis and network metadata, on hardware I own.
+- ▶ **Building:** [YAG — Yet Another Gateway](https://github.com/oakvx/yag), an experimental C17 AI gateway with multi-backend routing, protocol adapters, a web console and an optional desktop client.
+- ▶ **Developing:** [synk](https://github.com/oakvx/synkris), an on-premise salon booking and messaging platform integrating Google Calendar and WhatsApp. The current release candidate is for testing, not live customer data.
+- ▶ **Designing:** [Brat Animator](https://github.com/oakvx/bratAnimator), an entirely client-side lyric-video editor with a Windows 7-inspired desktop powered by 7.css.
+- ▶ **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4), a PS4 payload and offline analysis toolkit with evidence-tagged findings.
 - ▶ **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
 
 <h2>
@@ -67,20 +70,36 @@ Computer engineering student, junior software developer and graphic designer. I 
 
 <table>
 <tr>
+<td width="100%" valign="top">
+<a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental
+<br/><br/>
+An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.
+<br/><br/>
+<sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub>
+<br/>
+<sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub>
+<br/><br/>
+<a href="https://github.com/oakvx/yag"><b>Repository</b></a> · <a href="https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md">Architecture &amp; status</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td width="33.33%" valign="top">
 <a href="https://oakvx.github.io/bratAnimator/"><img src="./assets/brat-animator.png" width="100%" alt="Brat Animator: JavaScript, Canvas and WebCodecs" /></a>
 <br/>
 <b>Brat Animator</b><br/>
-Static web app, no backend. A timestamp-driven Canvas 2D compositor where preview and export share the exact same frames. WebCodecs MP4 export behind a runtime capability probe, IndexedDB project storage, <code>.brat.zip</code> archives, PWA with a versioned service worker.
+Local-only lyric-video studio with a Windows 7 desktop-style UI built on vendored <code>7.css</code>. A timestamp-driven Canvas 2D compositor keeps preview and export aligned; WebCodecs enables MP4 export when supported. Projects use IndexedDB and portable <code>.brat.zip</code> archives; PWA offline support included.
 <br/>
-<sub>JavaScript · Canvas 2D · WebCodecs · IndexedDB · Service Worker</sub>
+<sub>JavaScript · 7.css · Canvas 2D · WebCodecs · IndexedDB · PWA</sub>
 <br/>
 <a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a>
 </td>
 <td width="33.33%" valign="top">
 <a href="https://github.com/oakvx/synkris"><img src="./assets/synk.png" width="100%" alt="synk by SYNKRIS: Node.js, PHP, PostgreSQL, Google Calendar and WhatsApp Web" /></a>
 <br/>
-<b>synk / SYNKRIS</b> · 1.2.0-rc.6<br/>
+<b>synk</b> (formerly SYNKRIS) · 1.2.0-rc.6<br/>
 Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
 <br/>
 <sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub><br/>
@@ -189,8 +208,8 @@ Static project site with illustrative scenarios. The application lives in <a hre
 
 | Area | Tools |
 | :-- | :-- |
-| Web | HTML, CSS, JavaScript, Canvas 2D, WebCodecs, MediaRecorder, IndexedDB, service workers, accessibility, SEO |
-| Backend | Node.js, Express, PHP, Docker Compose, Git, CI (GitHub Actions) |
+| Web | HTML, CSS, JavaScript, React, TypeScript, 7.css, Canvas 2D, WebCodecs, MediaRecorder, IndexedDB, service workers, accessibility, SEO |
+| Backend & AI infrastructure | Node.js, Express, PHP, C17, CMake, libcurl, Docker Compose, Git, GitHub Actions, OpenAI-compatible APIs |
 | Data | PostgreSQL (constraints, outbox/queue patterns, `SKIP LOCKED`), MySQL, SQL Server (T-SQL) |
 | Reverse engineering | Python, C payloads, ELF/Orbis/PSF/NID, Ghidra, passive DNS/TLS/TCP metadata |
 | Systems | Windows, Active Directory, IT support, industrial software, PLC basics |
@@ -258,7 +277,9 @@ Animations of my avatar made for my website.
 
 Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce: la parte che le persone toccano, e la logica che deve reggere.
 
-- **Backend e logica applicativa:** [synk / SYNKRIS](https://github.com/oakvx/synkris) (Node.js, PHP, PostgreSQL, Google Calendar, WhatsApp Web; RC di collaudo), Brat Animator (compositor Canvas ed export nel browser) e Beautify.
+- **Infrastruttura AI:** [YAG](https://github.com/oakvx/yag), gateway sperimentale in C17 per autenticazione, routing di modelli, adattamento dei protocolli e gestione di più backend.
+- **Backend e logica applicativa:** [synk](https://github.com/oakvx/synkris), sistema on-premise per appuntamenti, Google Calendar e WhatsApp (release candidate di collaudo); Beautify.
+- **Interfacce e creatività:** [Brat Animator](https://github.com/oakvx/bratAnimator), editor video interamente nel browser con desktop ispirato a Windows 7 e libreria 7.css.
 - **Reverse engineering:** [middleManPS4](https://github.com/oakvx/middleManPS4), laboratorio per payload PS4, analisi offline di ELF/Orbis e osservabilità di rete sulla mia console.
 - **Design e web:** portfolio, demo Spinotto Felice, landing Top Gun Fly School e sito Synkris.
 
@@ -273,7 +294,8 @@ Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto 
 <a href="mailto:gabrielelucia07@gmail.com">Email</a> &nbsp; · &nbsp;
 <a href="https://oakvx.github.io/">Portfolio</a> &nbsp; · &nbsp;
 <a href="https://github.com/oakvx">GitHub</a> &nbsp; · &nbsp;
-<a href="https://github.com/oakvx/synkris">SYNKRIS</a>
+<a href="https://github.com/oakvx/synkris">synk</a> &nbsp; · &nbsp;
+<a href="https://github.com/oakvx/yag">YAG</a>
 
 <sub>© 2026 Gabriele Lucia · Graphics and avatar are my own work.</sub>
 
