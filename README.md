@@ -33,20 +33,9 @@
 </picture>
 </h2>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="100%" alt="YAG channel — an AI gateway written in C17, with OpenAI- and Anthropic-compatible protocol adapters." /></a></td>
-<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="100%" alt="synk channel — an on-premise salon booking and messaging platform with Google Calendar and WhatsApp." /></a></td>
-<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="100%" alt="Brat Animator channel — a local-only lyric-video studio that runs entirely in the browser." /></a></td>
-<td width="25%" align="center" valign="top"><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="100%" alt="middleManPS4 channel — PS4 payload tooling and offline ELF, Orbis and NID analysis." /></a></td>
-</tr>
-<tr>
-<td width="25%" align="center" valign="top"><a href="#mii-channel"><img src="./assets/wii/channels/mii.png" width="100%" alt="Mii Channel — about Gabriele Lucia, with his own Mii avatar standing in the plaza." /></a></td>
-<td width="25%" align="center" valign="top"><a href="#wii-settings"><img src="./assets/wii/channels/settings.png" width="100%" alt="Wii Settings — the languages, frameworks and tools Gabriele works with." /></a></td>
-<td width="25%" align="center" valign="top"><a href="#message-board"><img src="./assets/wii/channels/board.png" width="100%" alt="Message Board — current projects, release candidates and study notes." /></a></td>
-<td width="25%" align="center" valign="top"><a href="#internet-channel"><img src="./assets/wii/channels/internet.png" width="100%" alt="Internet Channel — links to the portfolio, case studies and contact pages." /></a></td>
-</tr>
-</table>
+<p align="center"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="24%" alt="YAG channel — an AI gateway written in C17, with OpenAI- and Anthropic-compatible protocol adapters." /></a><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="24%" alt="synk channel — an on-premise salon booking and messaging platform with Google Calendar and WhatsApp." /></a><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="24%" alt="Brat Animator channel — a local-only lyric-video studio that runs entirely in the browser." /></a><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="24%" alt="middleManPS4 channel — PS4 payload tooling and offline ELF, Orbis and NID analysis." /></a></p>
+
+<p align="center"><a href="#mii-channel"><img src="./assets/wii/channels/mii.png" width="24%" alt="Mii Channel — about Gabriele Lucia, with his own Mii avatar standing in the plaza." /></a><a href="#wii-settings"><img src="./assets/wii/channels/settings.png" width="24%" alt="Wii Settings — the languages, frameworks and tools Gabriele works with." /></a><a href="#message-board"><img src="./assets/wii/channels/board.png" width="24%" alt="Message Board — current projects, release candidates and study notes." /></a><a href="#internet-channel"><img src="./assets/wii/channels/internet.png" width="24%" alt="Internet Channel — links to the portfolio, case studies and contact pages." /></a></p>
 
 <sub><a href="https://github.com/oakvx/yag"><b>YAG</b></a> · AI infrastructure &nbsp;|&nbsp; <a href="https://github.com/oakvx/synkris"><b>synk</b></a> · booking &amp; messaging &nbsp;|&nbsp; <a href="https://github.com/oakvx/bratAnimator"><b>Brat Animator</b></a> · creative tooling &nbsp;|&nbsp; <a href="https://github.com/oakvx/middleManPS4"><b>middleManPS4</b></a> · reverse engineering &nbsp;|&nbsp; <a href="#mii-channel"><b>Mii Channel</b></a> · about me &nbsp;|&nbsp; <a href="#wii-settings"><b>Wii Settings</b></a> · toolbox &nbsp;|&nbsp; <a href="#message-board"><b>Message Board</b></a> · activity &nbsp;|&nbsp; <a href="#internet-channel"><b>Internet Channel</b></a> · links</sub>
 
@@ -59,30 +48,25 @@
 </picture>
 </h2>
 
-<table width="100%">
-<tr>
-<td width="44%" valign="top">
+<p align="center">
 <picture>
 <source media="(prefers-reduced-motion: reduce)" srcset="./assets/wii/mii-channel.png" />
-<img src="./assets/wii/mii-channel.gif" width="100%" alt="The Mii Channel plaza with my own Mii — brown hair, purple cat-motif sweater, blue jeans — waiting patiently on a light blue floor." />
+<img src="./assets/wii/mii-channel.gif" width="520" alt="The Mii Channel plaza with my own Mii — brown hair, purple cat-motif sweater, blue jeans — waiting patiently on a light blue floor." />
 </picture>
-</td>
-<td width="56%" valign="top">
+</p>
 
-<p><b>Gabriele Lucia</b> — computer engineering student, software developer and graphic designer. I work on <b>both sides of a system</b>: the interface people touch, and the logic that has to hold up under real-world conditions.</p>
-<p>My current focus is local-first software, AI infrastructure, reliable appointment workflows, browser-based creative tools and evidence-driven reverse engineering.</p>
-<ul>
-<li><b>Software development</b> — from C17 services and PostgreSQL constraints to PHP dashboards and static sites.</li>
-<li><b>UI and graphic design</b> — layouts, typography, icon systems, Canvas 2D graphics, accessible motion.</li>
-<li><b>AI infrastructure</b> — an experimental multi-backend gateway with protocol adapters and operational limits.</li>
-<li><b>Reverse engineering</b> — read-only diagnostics, offline binary analysis and evidence-tagged findings.</li>
-</ul>
-<p>Studying <b>Computer Engineering</b> at the University of Modena and Reggio Emilia (UNIMORE). Based in Sassuolo, Italy.</p>
-<p><sub><a href="https://oakvx.github.io/chi-sono/">More about me</a> · <a href="https://oakvx.github.io/fuori-orario/">After Hours</a> · <a href="mailto:gabrielelucia07@gmail.com">Email</a></sub></p>
+<b>Gabriele Lucia</b> — computer engineering student, software developer and graphic designer. I work on **both sides of a system**: the interface people touch, and the logic that has to hold up under real-world conditions.
 
-</td>
-</tr>
-</table>
+My current focus is local-first software, AI infrastructure, reliable appointment workflows, browser-based creative tools and evidence-driven reverse engineering.
+
+- **Software development** — from C17 services and PostgreSQL constraints to PHP dashboards and static sites.
+- **UI and graphic design** — layouts, typography, icon systems, Canvas 2D graphics, accessible motion.
+- **AI infrastructure** — an experimental multi-backend gateway with protocol adapters and operational limits.
+- **Reverse engineering** — read-only diagnostics, offline binary analysis and evidence-tagged findings.
+
+Studying **Computer Engineering** at the University of Modena and Reggio Emilia (UNIMORE). Based in Sassuolo, Italy.
+
+<sub><a href="https://oakvx.github.io/chi-sono/">More about me</a> · <a href="https://oakvx.github.io/fuori-orario/">After Hours</a> · <a href="mailto:gabrielelucia07@gmail.com">Email</a></sub>
 
 ### Career & education
 
@@ -105,38 +89,33 @@
 
 ### AI &amp; infrastructure
 
-<table width="100%">
-<tr>
-<td width="22%" valign="top"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="100%" alt="YAG channel" /></a></td>
-<td width="78%" valign="top">
+<p align="center"><a href="https://github.com/oakvx/yag"><img src="./assets/wii/channels/yag.png" width="240" alt="YAG channel" /></a></p>
 
-<p><a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental · release candidate <code>v0.1.0-rc.2</code></p>
-<p>An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.</p>
-<p><sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub></p>
-<p><sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub></p>
-<p><sub><a href="https://github.com/oakvx/yag">Repository</a> · <a href="https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md">Architecture &amp; status</a></sub></p>
+<a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental · release candidate `v0.1.0-rc.2`
 
-</td>
-</tr>
-</table>
+An AI gateway written in **C17**: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.
+
+<sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub>
+
+<sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub>
+
+<sub><a href="https://github.com/oakvx/yag">Repository</a> · <a href="https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md">Architecture &amp; status</a></sub>
 
 ### Backend &amp; app logic
 
-<table width="100%">
-<tr>
-<td width="22%" valign="top"><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="100%" alt="synk channel" /></a></td>
-<td width="78%" valign="top">
+<p align="center"><a href="https://github.com/oakvx/synkris"><img src="./assets/wii/channels/synk.png" width="240" alt="synk channel" /></a></p>
 
-<p><a href="https://github.com/oakvx/synkris"><b>synk</b></a> (formerly SYNKRIS) · release candidate <code>1.2.0-rc.6</code></p>
-<p>An on-premise salon booking and messaging platform integrating Google Calendar and WhatsApp. The current release candidate is for testing, not live customer data.</p>
-<p>Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.</p>
-<p><sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub></p>
-<p><sub>Proprietary, source-available. Real-provider testing and security review pending.</sub></p>
-<p><sub><a href="https://github.com/oakvx/synkris">Repository</a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a></sub></p>
+<a href="https://github.com/oakvx/synkris"><b>synk</b></a> (formerly SYNKRIS) · release candidate `1.2.0-rc.6`
 
-</td>
-</tr>
-</table>
+An on-premise salon booking and messaging platform integrating Google Calendar and WhatsApp. The current release candidate is for testing, not live customer data.
+
+Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
+
+<sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub>
+
+<sub>Proprietary, source-available. Real-provider testing and security review pending.</sub>
+
+<sub><a href="https://github.com/oakvx/synkris">Repository</a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a></sub>
 
 **Beautify** — diploma project: a multi-salon CRM in PHP/MySQL covering clients, staff roles, appointments, stock and analytics, with per-salon data separation and shared availability checks.
 
@@ -144,36 +123,29 @@
 
 ### Creative tools
 
-<table width="100%">
-<tr>
-<td width="22%" valign="top"><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="100%" alt="Brat Animator channel" /></a></td>
-<td width="78%" valign="top">
+<p align="center"><a href="https://github.com/oakvx/bratAnimator"><img src="./assets/wii/channels/brat.png" width="240" alt="Brat Animator channel" /></a></p>
 
-<p><a href="https://github.com/oakvx/bratAnimator"><b>Brat Animator</b></a> · live</p>
-<p>A local-only lyric-video studio with a Windows 7 desktop-style UI built on vendored <code>7.css</code>. A timestamp-driven Canvas 2D compositor keeps preview and export aligned; WebCodecs enables MP4 export when supported. Projects use IndexedDB and portable <code>.brat.zip</code> archives; PWA offline support included.</p>
-<p><sub>JavaScript · 7.css · Canvas 2D · WebCodecs · IndexedDB · PWA</sub></p>
-<p><sub><a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a></sub></p>
+<a href="https://github.com/oakvx/bratAnimator"><b>Brat Animator</b></a> · live
 
-</td>
-</tr>
-</table>
+A local-only lyric-video studio with a Windows 7 desktop-style UI built on vendored `7.css`. A timestamp-driven Canvas 2D compositor keeps preview and export aligned; WebCodecs enables MP4 export when supported. Projects use IndexedDB and portable `.brat.zip` archives; PWA offline support included.
+
+<sub>JavaScript · 7.css · Canvas 2D · WebCodecs · IndexedDB · PWA</sub>
+
+<sub><a href="https://github.com/oakvx/bratAnimator">Code</a> · <a href="https://oakvx.github.io/bratAnimator/">Try it</a> · <a href="https://oakvx.github.io/projects/brat-animator/">Case study</a></sub>
 
 ### Reverse engineering
 
-<table width="100%">
-<tr>
-<td width="22%" valign="top"><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="100%" alt="middleManPS4 channel" /></a></td>
-<td width="78%" valign="top">
+<p align="center"><a href="https://github.com/oakvx/middleManPS4"><img src="./assets/wii/channels/middleman.png" width="240" alt="middleManPS4 channel" /></a></p>
 
-<p><a href="https://github.com/oakvx/middleManPS4"><b>middleManPS4</b></a> · research / WIP · <code>v0.17</code></p>
-<p>Python (stdlib-only) host tooling and C payloads around three questions: how a payload gets loaded, what is inside the binaries, what is visible on the wire. ELF validation and delivery to <code>elfldr</code>, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.</p>
-<p><sub>Python · C payloads · ELF / Orbis / PSF / NID · Ghidra · passive DNS/TLS/TCP metadata</sub></p>
-<p><sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN-bypass or firmware-spoofing claims. <b>Evidence or it didn't happen.</b></sub></p>
-<p><sub><a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a></sub></p>
+<a href="https://github.com/oakvx/middleManPS4"><b>middleManPS4</b></a> · research / WIP · `v0.17`
 
-</td>
-</tr>
-</table>
+Python (stdlib-only) host tooling and C payloads around three questions: how a payload gets loaded, what is inside the binaries, what is visible on the wire. ELF validation and delivery to `elfldr`, read-only firmware readout, an offline ELF/Orbis/PSF/NID toolkit with JSON/Markdown reports and optional Ghidra export, passive DNS/TCP/TLS metadata tools, and an offline workbench with integrity-checked reports.
+
+<sub>Python · C payloads · ELF / Orbis / PSF / NID · Ghidra · passive DNS/TLS/TCP metadata</sub>
+
+<sub>Tested on one console (PS4, 12.52, GoldHEN) where documented. Read-only diagnostics and offline analysis; no PSN-bypass or firmware-spoofing claims. **Evidence or it didn't happen.**</sub>
+
+<sub><a href="https://github.com/oakvx/middleManPS4">Code, evidence and roadmap</a></sub>
 
 ### Design &amp; web
 
@@ -294,7 +266,6 @@ These are animations of my own avatar, made for my website and reused here uncha
 
 </details>
 
-
 <details>
 <summary><b>How this page is made</b></summary>
 
@@ -303,7 +274,7 @@ These are animations of my own avatar, made for my website and reused here uncha
 - One Markdown file. No CSS, no JavaScript, no build step, no external services at runtime — GitHub renders all of it, and every image is a file in this repository.
 - The System Menu, channel frames, footer, screens and headings are drawn from scratch with Python and Pillow by [`tools/build_wii_assets.py`](./tools/build_wii_assets.py). Geometry, palette and wording follow the original Wii System Menu: dotted wallpaper, glossy white channel frames, cyan selection glow, silver footer and the central tray.
 - The menu and Mii Channel animations are GIFs generated by the same script. A &lt;picture&gt; element offers the static frame when <code>prefers-reduced-motion</code> is set; if GitHub ignores that hint, the animation is still calm and loops with a pause.
-- An animated image cannot contain clickable hotspots on GitHub, so the hero is decorative and the real, individually linked channels live in the Home Menu table below it.
+- An animated image cannot contain clickable hotspots on GitHub, so the hero is decorative and the real, individually linked channels live in the Home Menu grid below it.
 - My Mii is my own artwork from [`assets/mii`](./assets/mii): the same frames are reused, never redrawn. Typefaces: Nunito and Nunito Sans, SIL Open Font License (see [`tools/fonts`](./tools/fonts)).
 - Palette: warm white menu, silver hardware, cyan highlight (`#16b6dd`) — a quiet nod to a console home screen from 2006.
 - This is a personal tribute. Not affiliated with Nintendo; Wii is a trademark of Nintendo.
