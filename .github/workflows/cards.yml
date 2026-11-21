@@ -5,6 +5,7 @@ on:
       - "assets/cards/cards.json"
       - "tools/gen_cards.py"
       - "tools/render_card_pngs.py"
+      - "tools/fonts.py"
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,20 +15,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Fetch the Continuum (Wii) font from fontmeme.com
+        run: python3 tools/fonts.py
+
       - name: Regenerate card SVGs from cards.json
         run: python3 tools/gen_cards.py
 
       - name: Install resvg-py
         run: pip install resvg-py
 
-      - name: Render any missing card PNGs
-        # Brand-new cards get their PNG rendered here (system fonts stand in
-        # for the brand font). Existing PNGs are never overwritten - those are
-        # committed brand-font rasterizations.
-        run: python3 tools/render_card_pngs.py
+      - name: Render card PNGs with the Continuum font
+        # --all re-renders every card PNG with contb.ttf fetched at build time.
+        # Falls back to system fonts (with a warning) if fontmeme is unreachable;
+        # committed PNGs are never downgraded offline.
+        run: python3 tools/render_card_pngs.py --all
 
       - name: Commit if changed
         run: |
+          git status --porcelain
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
