@@ -1,0 +1,45 @@
+name: Generate card SVGs
+on:
+  push:
+    paths:
+      - "assets/cards/cards.json"
+      - "tools/gen_cards.py"
+      - "tools/render_card_pngs.py"
+      - "tools/fonts.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the Continuum (Wii) font from CDNFonts
+        run: python3 tools/fonts.py
+
+      - name: Regenerate card SVGs from cards.json
+        run: python3 tools/gen_cards.py
+
+      - name: Install resvg-py + fontTools
+        run: pip install resvg-py fonttools
+
+      - name: Render card PNGs with the Continuum font
+        # --all re-renders every card PNG with the Continuum font fetched at
+        # build time. If fonts.cdnfonts.com is unreachable the render keeps
+        # committed brand PNGs as-is and warns loudly (never downgrades them
+        # to DejaVu stand-ins).
+        run: python3 tools/render_card_pngs.py --all
+
+      - name: Commit if changed
+        run: |
+          git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/cards/*.svg assets/*.png assets/cards/cards.json tools/
+            git commit -m "chore: regenerate card SVGs/PNGs from cards.json"
+            git push
+          else
+            echo "SVGs/PNGs already up to date."
+          fi

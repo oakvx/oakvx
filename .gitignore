@@ -1,0 +1,5 @@
+# downloaded at build time, never committed
+.cache/
+
+# python cache
+__pycache__/

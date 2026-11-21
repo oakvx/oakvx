@@ -1,0 +1,311 @@
+{
+  "cards": [
+    {
+      "slug": "brat-animator",
+      "number": "01",
+      "title": "Brat Animator",
+      "title_size": "40px",
+      "description": [
+        "Lyric video editor that runs in your",
+        "browser."
+      ],
+      "pills": [
+        {
+          "label": "JavaScript",
+          "x": "58",
+          "width": "92",
+          "cx": "104"
+        },
+        {
+          "label": "Canvas",
+          "x": "160",
+          "width": "78",
+          "cx": "199"
+        },
+        {
+          "label": "WebCodecs",
+          "x": "248",
+          "width": "105",
+          "cx": "300.5"
+        }
+      ],
+      "accent": "7968d8",
+      "illustration": "      <path d=\"M-31-22h11l5-7 7 14 6-7h33\"/>\n      <path d=\"M-31 0h18l5-9 8 18 7-9h24\"/>\n      <path d=\"M-31 22h9l5-6 7 12 7-6h34\"/>\n      <circle cx=\"-31\" cy=\"-22\" r=\"1.5\" fill=\"#@@ACCENT@@\" stroke=\"none\"/><circle cx=\"31\" cy=\"22\" r=\"1.5\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>"
+    },
+    {
+      "slug": "synk",
+      "number": "02",
+      "title": "Synk",
+      "title_size": "40px",
+      "description": [
+        "A chat assistant that books salon",
+        "appointments."
+      ],
+      "pills": [
+        {
+          "label": "Node.js",
+          "x": "58",
+          "width": "80",
+          "cx": "98"
+        },
+        {
+          "label": "Google Calendar",
+          "x": "148",
+          "width": "139",
+          "cx": "217.5"
+        }
+      ],
+      "accent": "08a8c9",
+      "illustration": "      <path d=\"M-32-27h45a7 7 0 0 1 7 7v25a7 7 0 0 1-7 7h-22l-12 9 2-9h-13a7 7 0 0 1-7-7v-25a7 7 0 0 1 7-7z\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.035\"/>\n      <path d=\"M-27-10h2m10 0h2m10 0h2\"/>\n      <rect x=\"-1\" y=\"-1\" width=\"36\" height=\"34\" rx=\"6\" fill=\"#f8fafa\"/>\n      <path d=\"M-1 10h36M9-7v10M25-7v10\"/>\n      <path d=\"M9 19h5m7 0h4M9 25h5\" stroke-width=\"2.3\"/>"
+    },
+    {
+      "slug": "beautify",
+      "number": "03",
+      "title": "Beautify",
+      "title_size": "40px",
+      "description": [
+        "Management app for salons: clients,",
+        "staff, schedules."
+      ],
+      "pills": [
+        {
+          "label": "PHP",
+          "x": "58",
+          "width": "58",
+          "cx": "87"
+        },
+        {
+          "label": "MySQL",
+          "x": "126",
+          "width": "78",
+          "cx": "165"
+        }
+      ],
+      "accent": "c45c83",
+      "illustration": "      <rect x=\"-28\" y=\"-25\" width=\"55\" height=\"54\" rx=\"9\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <path d=\"M-28-9h55M-15-32v14M14-32v14\"/>\n      <path d=\"M-14 3h5m9 0h5m9 0h3M-14 14h5m9 0h5\" stroke-width=\"2.4\"/>\n      <path d=\"M27-29l2.5 7 7 2.5-7 2.5-2.5 7-2.5-7-7-2.5 7-2.5z\" fill=\"#f8fafa\"/>"
+    },
+    {
+      "slug": "portfolio",
+      "number": "04",
+      "title": "My site",
+      "title_size": "40px",
+      "description": [
+        "My own website, where all of this lives."
+      ],
+      "pills": [
+        {
+          "label": "HTML",
+          "x": "58",
+          "width": "64",
+          "cx": "90"
+        },
+        {
+          "label": "CSS",
+          "x": "132",
+          "width": "56",
+          "cx": "160"
+        },
+        {
+          "label": "JS",
+          "x": "198",
+          "width": "46",
+          "cx": "221"
+        }
+      ],
+      "accent": "20a98a",
+      "illustration": "      <rect x=\"-31\" y=\"-25\" width=\"62\" height=\"51\" rx=\"8\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <path d=\"M-31-10h62\"/>\n      <circle cx=\"-21\" cy=\"-18\" r=\"1.4\" fill=\"#@@ACCENT@@\" stroke=\"none\"/><circle cx=\"-14\" cy=\"-18\" r=\"1.4\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>\n      <path d=\"M-20-1v17M-9 1h28M-9 10h19\"/>\n      <rect x=\"-20\" y=\"0\" width=\"5\" height=\"16\" rx=\"2\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.16\" stroke=\"none\"/>"
+    },
+    {
+      "slug": "spinotto-felice",
+      "number": "05",
+      "title": "Spinotto Felice",
+      "title_size": "37px",
+      "description": [
+        "A reusable small-business website,",
+        "shown as a fictional EV demo."
+      ],
+      "pills": [
+        {
+          "label": "HTML",
+          "x": "58",
+          "width": "64",
+          "cx": "90"
+        },
+        {
+          "label": "CSS",
+          "x": "132",
+          "width": "56",
+          "cx": "160"
+        },
+        {
+          "label": "JS",
+          "x": "198",
+          "width": "46",
+          "cx": "221"
+        }
+      ],
+      "accent": "22a884",
+      "illustration": "      <path d=\"M-17-33v13M-2-33v13\"/>\n      <path d=\"M-25-21h31v12a15 15 0 0 1-15 15h-1a15 15 0 0 1-15-15z\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <path d=\"M-10 6v12c0 9-6 15-15 15h-6\"/>\n      <path d=\"M-15-9h18M-9-14l-4 6h8l-5 7\" stroke-width=\"2.2\"/>\n      <path d=\"M8 14c11-1 18-8 19-19-11 1-18 8-19 19zm1-1 10-10\"/>"
+    },
+    {
+      "slug": "top-gun",
+      "number": "06",
+      "title": "Top Gun Fly School",
+      "title_size": "37px",
+      "description": [
+        "An unofficial flight-school landing page.",
+        "One self-contained HTML file."
+      ],
+      "pills": [
+        {
+          "label": "HTML",
+          "x": "58",
+          "width": "64",
+          "cx": "90"
+        },
+        {
+          "label": "CSS",
+          "x": "132",
+          "width": "56",
+          "cx": "160"
+        },
+        {
+          "label": "JS",
+          "x": "198",
+          "width": "46",
+          "cx": "221"
+        }
+      ],
+      "accent": "368dd5",
+      "illustration": "      <path d=\"M0-39c4 4 6 11 6 19l1 12 27 15v7L7 7 6 23l11 9v5L0 31-17 37v-5l11-9-1-16-27 7V7l27-15 1-12c0-8 2-15 6-19z\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <path d=\"M0-29v48M-7 7H7\" stroke-width=\"2.1\"/>"
+    },
+    {
+      "slug": "synkris-site",
+      "number": "07",
+      "title": "Synkris",
+      "title_size": "40px",
+      "description": [
+        "The coming-soon site for the salon",
+        "assistant, with interactive demos."
+      ],
+      "pills": [
+        {
+          "label": "HTML",
+          "x": "58",
+          "width": "64",
+          "cx": "90"
+        },
+        {
+          "label": "CSS",
+          "x": "132",
+          "width": "56",
+          "cx": "160"
+        },
+        {
+          "label": "JS",
+          "x": "198",
+          "width": "46",
+          "cx": "221"
+        }
+      ],
+      "accent": "9965c5",
+      "illustration": "      <path d=\"M-29-23h48a8 8 0 0 1 8 8v27a8 8 0 0 1-8 8h-20L-15 30l2-10h-16a8 8 0 0 1-8-8v-27a8 8 0 0 1 8-8z\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <circle cx=\"-20\" cy=\"-2\" r=\"2\" fill=\"#@@ACCENT@@\" stroke=\"none\"/><circle cx=\"-7\" cy=\"-2\" r=\"2\" fill=\"#@@ACCENT@@\" stroke=\"none\"/><circle cx=\"6\" cy=\"-2\" r=\"2\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>\n      <path d=\"M26-35l3 9 9 3-9 3-3 9-3-9-9-3 9-3z\" fill=\"#f8fafa\"/>"
+    },
+    {
+      "slug": "middleman-ps4",
+      "number": "08",
+      "title": "middleManPS4",
+      "title_size": "40px",
+      "description": [
+        "A PS4 payload and offline binary",
+        "research toolkit. Evidence first."
+      ],
+      "pills": [
+        {
+          "label": "Python",
+          "x": "58",
+          "width": "79",
+          "cx": "97.5"
+        },
+        {
+          "label": "ELF / Orbis",
+          "x": "147",
+          "width": "104",
+          "cx": "199"
+        },
+        {
+          "label": "Ghidra",
+          "x": "261",
+          "width": "78",
+          "cx": "300"
+        }
+      ],
+      "accent": "7968d8",
+      "illustration": "      <rect x=\"-32\" y=\"-30\" width=\"49\" height=\"49\" rx=\"8\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <rect x=\"-21\" y=\"-19\" width=\"27\" height=\"27\" rx=\"4\"/>\n      <path d=\"M-23-30v-9M-8-30v-9M7-30v-9M-23 19v9M-8 19v9M-32-20h-9M-32-5h-9M-32 10h-9M17-20h9M17-5h9\"/>\n      <path d=\"M-14-8h6l4 7 5-7\"/>\n      <circle cx=\"15\" cy=\"14\" r=\"17\" fill=\"#f8fafa\"/>\n      <path d=\"M26 26l11 11\"/>\n      <path d=\"M8 15l5 4 8-10\" stroke-width=\"2.8\"/>"
+    },
+    {
+      "slug": "yag",
+      "number": "09",
+      "title": "YAG",
+      "title_size": "40px",
+      "description": [
+        "An experimental C17 AI gateway:",
+        "multi-backend routing, protocol translations."
+      ],
+      "pills": [
+        {
+          "label": "C17",
+          "x": "58",
+          "width": "55",
+          "cx": "85"
+        },
+        {
+          "label": "OpenAI",
+          "x": "123",
+          "width": "77",
+          "cx": "161"
+        },
+        {
+          "label": "Anthropic",
+          "x": "210",
+          "width": "98",
+          "cx": "259"
+        }
+      ],
+      "accent": "6366f1",
+      "illustration": "      <line x1=\"0\" y1=\"0\" x2=\"-37\" y2=\"-40\"/>\n      <line x1=\"0\" y1=\"0\" x2=\"37\" y2=\"-33\"/>\n      <line x1=\"0\" y1=\"0\" x2=\"33\" y2=\"37\"/>\n      <rect x=\"-46\" y=\"-49\" width=\"18\" height=\"18\" rx=\"4\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\"/>\n      <circle cx=\"-37\" cy=\"-40\" r=\"2.6\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>\n      <rect x=\"28\" y=\"-42\" width=\"18\" height=\"18\" rx=\"4\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\"/>\n      <circle cx=\"37\" cy=\"-33\" r=\"2.6\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>\n      <rect x=\"24\" y=\"28\" width=\"18\" height=\"18\" rx=\"4\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\"/>\n      <circle cx=\"33\" cy=\"37\" r=\"2.6\" fill=\"#@@ACCENT@@\" stroke=\"none\"/>\n      <rect x=\"-21\" y=\"-21\" width=\"42\" height=\"42\" rx=\"8\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\"/>\n      <rect x=\"-8\" y=\"-8\" width=\"16\" height=\"16\" rx=\"3\"/>"
+    },
+    {
+      "slug": "piko",
+      "number": "10",
+      "title": "Piko",
+      "title_size": "40px",
+      "description": [
+        "A local-first Windows agent that",
+        "observes the app and plans with a local LLM."
+      ],
+      "pills": [
+        {
+          "label": "Python",
+          "x": "58",
+          "width": "77",
+          "cx": "96"
+        },
+        {
+          "label": "Ollama",
+          "x": "145",
+          "width": "77",
+          "cx": "183"
+        },
+        {
+          "label": "Windows",
+          "x": "232",
+          "width": "84",
+          "cx": "274"
+        }
+      ],
+      "accent": "ff5c8a",
+      "illustration": "      <rect x=\"-26\" y=\"-24\" width=\"52\" height=\"52\" rx=\"10\" fill=\"#@@ACCENT@@\" fill-opacity=\"0.07\" stroke=\"#@@ACCENT@@\" stroke-width=\"2.6\"/>\n      <path d=\"M-16 3l8 10 19-20\" stroke=\"#@@ACCENT@@\" stroke-width=\"3\"/>\n      <polygon points=\"-25,29 -25,47 -18.4,40.9 -13.2,54.6 -8.8,51.9 -12.9,38.8 -5.6,38.8\" fill=\"#@@ACCENT@@\"/>"
+    }
+  ]
+}

@@ -93,6 +93,8 @@ Computer engineering student, software developer and graphic designer. I work on
 <table>
 <tr>
 <td width="100%" valign="top">
+<a href="https://github.com/oakvx/yag"><img src="./assets/yag.png" width="100%" alt="YAG: C17 AI gateway, OpenAI and Anthropic protocol adapters, multi-backend routing" /></a>
+<br/>
 <a href="https://github.com/oakvx/yag"><b>YAG · Yet Another Gateway</b></a> · experimental · v0.1.0-rc.2
 <br/><br/>
 An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.
@@ -123,6 +125,8 @@ flowchart LR
 <table>
 <tr>
 <td width="100%" valign="top">
+<a href="https://github.com/oakvx/piko"><img src="./assets/piko.png" width="100%" alt="Piko: Python, Ollama, Windows UI Automation, local-first Windows agent" /></a>
+<br/>
 <a href="https://github.com/oakvx/piko"><b>Piko</b></a> · alpha preview · Windows x64
 <br/><br/>
 A local-first Windows agent that looks at the app in front of it, writes a plan with a local Ollama model, waits for you to read it, and only then clicks and types. No cloud, no background screen stream, no action without your approval. Per-session, per-app permissions, an SQLite session state machine, a consent-based Teach recorder, importable/exportable Skills and a React/Tauri desktop UI (Workfield).
