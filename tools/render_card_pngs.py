@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Render card PNGs from assets/cards/*.svg with the Continuum (Wii) font.
 
-The brand cards use 'Continuum Bold' for titles. At build time this tool
-first fetches contb.ttf from fontmeme.com (see tools/fonts.py) and renders
-each card with it, so the PNGs actually carry the brand font instead of a
-system stand-in.
+The brand cards use the Continuum family for titles. At build time this tool
+first fetches the Continuum font from CDNFonts (see tools/fonts.py) and
+renders each card with it, so the PNGs actually carry the brand font instead
+of a system stand-in. fontmeme.com is kept as a last-resort fallback.
 
 Behaviour:
     python3 tools/render_card_pngs.py --missing   # only cards with no PNG yet (safe default)
@@ -127,7 +127,7 @@ def main():
     if brand_available:
         print(f"using continuum font: {brand_path} (family={brand_family!r})")
     else:
-        print("WARNING: Continuum font could not be fetched from fontmeme.com - "
+        print("WARNING: Continuum font could not be fetched (CDNFonts or fontmeme) - "
               "using system DejaVu fonts instead.", file=sys.stderr)
 
     rendered = skipped = 0

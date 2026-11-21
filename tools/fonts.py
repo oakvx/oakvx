@@ -185,32 +185,73 @@ def fetch_fontmeme():
     return None, None
 
 
+def convert_woff_to_ttf(woff_path, ttf_path):
+    """Convert a WOFF font to TTF using fontTools.
+
+    resvg (the renderer) silently ignores WOFF files, so the brand font must
+    be TTF before rendering. Returns True on success; False on failure —
+    callers then treat the CDN route as unavailable and fall back.
+    """
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        print("fontTools not installed - cannot convert WOFF to TTF "
+              "(this needs `pip install fonttools`)", file=sys.stderr)
+        return False
+    try:
+        font = TTFont(str(woff_path))
+        # force a plain TTF (not WOFF) regardless of filename or the source flavor
+        font.flavor = None
+        font.save(str(ttf_path))
+        print(f"converted {woff_path.name} -> {ttf_path.name}")
+        return True
+    except Exception as e:
+        print(f"WOFF -> TTF conversion failed ({e})", file=sys.stderr)
+        return False
+
+
 def ensure_continuum(cache_dir=None):
-    """Return (font_path, family_name) for the Continuum brand font, or (None, None)."""
+    """Return (font_path, family_name) for the Continuum brand font, or (None, None).
+
+    The renderer (resvg) silently ignores WOFF files, so the CDN route converts
+    the downloaded WOFF to TTF before anything else can use it; only a TTF
+    is ever returned.
+    """
     cache_dir = Path(cache_dir or CACHE_DIR)
     cache_dir.mkdir(parents=True, exist_ok=True)
 
     # CDN route (primary)
-    dest = cache_dir / CDNFONTS_FONT_NAME
-    if not dest.is_file():
-        data, family = fetch_cdnfonts()
-        if data and family:
-            dest.write_bytes(data)
-            print(f"downloaded Continuum font from CDNFonts: {dest} ({len(data)} bytes, family={family!r})")
-    if dest.is_file():
-        family = "Continuum Medium"
-        return str(dest), family
+    woff_dest = cache_dir / CDNFONTS_FONT_NAME
+    ttf_dest = cache_dir / "continuum-medium.ttf"
+    if not ttf_dest.is_file():
+        if not woff_dest.is_file():
+            data, _ = fetch_cdnfonts()
+            if data:
+                woff_dest.write_bytes(data)
+                print(f"downloaded Continuum font from CDNFonts: {woff_dest} ({len(data)} bytes)")
+        if woff_dest.is_file():
+            convert_woff_to_ttf(woff_dest, ttf_dest)
+    if ttf_dest.is_file():
+        family = read_family_name(ttf_dest) or "Continuum Medium"
+        return str(ttf_dest), family
+    # CDN route failed: fall back to fontmeme
+    print("CDNFonts route unavailable (download or conversion failed) — trying fontmeme.com",
+          file=sys.stderr)
 
     # fontmeme fallback
-    ttf_dest = cache_dir / FONTMEME_FONT_NAME
-    if not ttf_dest.is_file():
+    meme_dest = cache_dir / FONTMEME_FONT_NAME
+    if not meme_dest.is_file():
         data, _ = fetch_fontmeme()
         if data:
-            ttf_dest.write_bytes(data)
-            print(f"downloaded Continuum font from fontmeme: {ttf_dest} ({len(data)} bytes)")
-    if ttf_dest.is_file():
-        family = read_family_name(ttf_dest)
-        return str(ttf_dest), family if family else "Continuum Bold"
+            meme_dest.write_bytes(data)
+            print(f"downloaded Continuum font from fontmeme: {meme_dest} ({len(data)} bytes)")
+    if meme_dest.is_file():
+        family = read_family_name(meme_dest)
+        if family:
+            return str(meme_dest), family
+        # magic-validated TTF whose family could not be read; pass the file
+        # through with the CSS family as a last resort
+        return str(meme_dest), "Continuum Bold"
 
     return None, None
 
@@ -218,10 +259,9 @@ def ensure_continuum(cache_dir=None):
 def main():
     """Never fail the build: a missing brand font degrades gracefully.
 
-    Returns 0 either way, but exits non-zero via a loudly-printed marker when
-    the font could not be fetched — stderr output makes the degraded build
-    visible in CI logs (render_card_pngs.py then renders missing PNGs with
-    system fonts and keeps committed brand PNGs untouched).
+    Returns 0 either way. On total failure it prints the URLs tried and a
+    warning, so CI logs show why the brand font was missing and
+    render_card_pngs.py keeps committed brand-font PNGs untouched.
     """
     font, family = ensure_continuum()
     if font and family:
