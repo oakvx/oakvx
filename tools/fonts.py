@@ -114,9 +114,11 @@ def main():
     if font and family:
         print(f"continuum font: {font} (family={family!r})")
         return 0
-    print("continuum font unavailable (all candidate URLs failed) — the build will fall back to system fonts",
+    print("ERROR: cannot fetch the Continuum font from fontmeme.com (see URLs tried above). "
+          "The build cannot render brand-font card PNGs without it. "
+          "Check the URL list in tools/fonts.py or fetch contb.ttf elsewhere.",
           file=sys.stderr)
-    return 0  # render tools must degrade gracefully, not fail the build
+    return 1
 
 
 if __name__ == "__main__":
