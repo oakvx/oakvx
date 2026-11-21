@@ -22,13 +22,11 @@
   <text x="58" y="66" class="number">09</text>
   <text x="58" y="132" class="title">YAG</text>
   <text x="58" y="169" class="description">An experimental C17 AI gateway:</text>
-  <text x="58" y="193" class="description">multi-backend routing, protocol translations.</text>
+<text x="58" y="193" class="description">multi-backend routing, protocol translations.</text>
   <rect x="58" y="216" width="55" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="85" y="236" class="tag" text-anchor="middle">C17</text>
-  <rect x="123" y="216" width="77" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="161" y="236" class="tag" text-anchor="middle">OpenAI</text>
-  <rect x="210" y="216" width="98" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="259" y="236" class="tag" text-anchor="middle">Anthropic</text>
+      <text x="85" y="236" class="tag" text-anchor="middle">C17</text><rect x="123" y="216" width="77" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
+      <text x="161" y="236" class="tag" text-anchor="middle">OpenAI</text><rect x="210" y="216" width="98" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
+      <text x="259" y="236" class="tag" text-anchor="middle">Anthropic</text>
   <rect x="474" y="59" width="152" height="152" rx="28" fill="none" stroke="#16c2e3" stroke-width="9" opacity=".48" filter="url(#glow)"/>
   <g filter="url(#tileShadow)"><rect x="475" y="60" width="150" height="150" rx="27" fill="#fbfcfc" stroke="#16bad8" stroke-width="4"/></g>
   <rect x="481" y="66" width="138" height="138" rx="22" fill="none" stroke="#c2edf3"/>

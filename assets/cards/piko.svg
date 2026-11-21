@@ -22,13 +22,11 @@
   <text x="58" y="66" class="number">10</text>
   <text x="58" y="132" class="title">Piko</text>
   <text x="58" y="169" class="description">A local-first Windows agent that</text>
-  <text x="58" y="193" class="description">observes the app and plans with a local LLM.</text>
+<text x="58" y="193" class="description">observes the app and plans with a local LLM.</text>
   <rect x="58" y="216" width="77" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="96" y="236" class="tag" text-anchor="middle">Python</text>
-  <rect x="145" y="216" width="77" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="183" y="236" class="tag" text-anchor="middle">Ollama</text>
-  <rect x="232" y="216" width="84" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
-  <text x="274" y="236" class="tag" text-anchor="middle">Windows</text>
+      <text x="96" y="236" class="tag" text-anchor="middle">Python</text><rect x="145" y="216" width="77" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
+      <text x="183" y="236" class="tag" text-anchor="middle">Ollama</text><rect x="232" y="216" width="84" height="31" rx="15.5" fill="#fbfcfc" stroke="#d8dfe1"/>
+      <text x="274" y="236" class="tag" text-anchor="middle">Windows</text>
   <rect x="474" y="59" width="152" height="152" rx="28" fill="none" stroke="#16c2e3" stroke-width="9" opacity=".48" filter="url(#glow)"/>
   <g filter="url(#tileShadow)"><rect x="475" y="60" width="150" height="150" rx="27" fill="#fbfcfc" stroke="#16bad8" stroke-width="4"/></g>
   <rect x="481" y="66" width="138" height="138" rx="22" fill="none" stroke="#c2edf3"/>
