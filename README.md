@@ -28,6 +28,11 @@
 
 </div>
 
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oakvx/oakvx/output/snake-dark.svg" />
+<img alt="Contribution snake" src="https://raw.githubusercontent.com/oakvx/oakvx/output/snake.svg" width="100%" />
+</picture>
+
 <h3>
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/hello-dark.png" />
@@ -43,6 +48,10 @@ Computer engineering student, software developer and graphic designer. I work on
 
 </div>
 
+**Open to:** internships · freelance · interesting side projects
+
+**EN** · [**IT**](#it)
+
 <h2>
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/right-now-dark.png" />
@@ -56,6 +65,16 @@ Computer engineering student, software developer and graphic designer. I work on
 - ▶ **Designing:** [Brat Animator](https://github.com/oakvx/bratAnimator), an entirely client-side lyric-video editor with a Windows 7-inspired desktop powered by 7.css. Latest: timed syllable continuations render with a hyphen until a split word completes.
 - ▶ **Researching:** [middleManPS4](https://github.com/oakvx/middleManPS4), a PS4 payload and offline analysis toolkit with evidence-tagged findings.
 - ▶ **Studying:** Computer Engineering at the University of Modena and Reggio Emilia.
+
+<sub>Recently pushed · auto-updated by Actions</sub>
+
+<!-- RECENT:START -->
+- [`piko`](https://github.com/oakvx/piko) · updated 2026-11-19
+- [`bratAnimator`](https://github.com/oakvx/bratAnimator) · updated 2026-11-19
+- [`oakvx.github.io`](https://github.com/oakvx/oakvx.github.io) · updated 2026-11-19
+- [`yag`](https://github.com/oakvx/yag) · updated 2026-11-19
+- [`synkris`](https://github.com/oakvx/synkris) · updated 2026-11-16
+<!-- RECENT:END -->
 
 <h2>
 <picture>
@@ -79,8 +98,6 @@ Computer engineering student, software developer and graphic designer. I work on
 An AI gateway written in <b>C17</b>: authenticated access to multiple inference backends, OpenAI-compatible and Anthropic-compatible protocol adapters, per-model routing and operational limits. Includes a React/TypeScript control console and an optional cross-platform desktop chat client. The control plane covers LAN client keys, model operations, scheduling and backend management.
 <br/><br/>
 <sub>C17 · CMake · libcurl · React · TypeScript · AI infrastructure · GitHub Actions</sub>
-<br/>
-<sub>Real-model compatibility and production security are still under qualification; not intended for exposure to untrusted networks.</sub>
 <br/><br/>
 <sub>v0.1.0-rc.2 (2026-11-15): Linux host tarball and Windows/macOS/Linux desktop installers.</sub>
 <br/><br/>
@@ -88,6 +105,20 @@ An AI gateway written in <b>C17</b>: authenticated access to multiple inference 
 </td>
 </tr>
 </table>
+
+> [!WARNING]
+> **YAG is experimental:** real-model compatibility and production security are still under qualification. Don't expose it to untrusted networks.
+
+<sub>YAG request flow — simplified, [full details](https://github.com/oakvx/yag/blob/main/docs/architecture/STATUS.md)</sub>
+
+```mermaid
+flowchart LR
+    A[LAN client key] --> B[Auth]
+    B --> C[Protocol adapter<br/>OpenAI / Anthropic-compatible]
+    C --> D[Per-model routing<br/>+ operational limits]
+    D --> E[Backend 1]
+    D --> F[Backend 2]
+```
 
 <table>
 <tr>
@@ -126,7 +157,7 @@ Local-only lyric-video studio with a Windows 7 desktop-style UI built on vendore
 Docker Compose stack: Node.js bot, PHP dashboard, PostgreSQL 16. A GiST exclusion constraint makes double booking impossible; Google Calendar side effects flow through a transactional outbox with leases and fencing tokens, plus a compensation saga. WhatsApp via WhatsApp Web, optional local Ollama.
 <br/>
 <sub>Node.js · PHP · PostgreSQL · Docker · Google Calendar API</sub><br/>
-<sub>Proprietary, source-available. Real-provider testing and security review pending.</sub>
+<sub>Proprietary, source-available.</sub>
 <br/>
 <a href="https://github.com/oakvx/synkris"><b>Repository</b></a> · <a href="https://oakvx.github.io/projects/synk/">Case study</a> · <a href="https://oakvxish.github.io/synkris.github.io/">Project site</a>
 </td>
@@ -142,6 +173,22 @@ Diploma project: multi-salon CRM in PHP/MySQL covering clients, staff roles, app
 </td>
 </tr>
 </table>
+
+<sub>synk booking &amp; calendar flow — simplified, [full details](https://github.com/oakvx/synkris)</sub>
+
+```mermaid
+flowchart LR
+    A[WhatsApp message] --> B[Node.js bot]
+    B --> C[(PostgreSQL 16)]
+    C -- "GiST exclusion constraint<br/>blocks double booking" --> C
+    C --> D[Transactional outbox]
+    D -- "leases + fencing tokens" --> E[Google Calendar API]
+    E -- on failure --> F[Compensation saga]
+    F --> C
+```
+
+> [!NOTE]
+> **synk** is a release candidate for testing, not for live customer data. Real-provider testing and security review are pending.
 
 <h3>
 <picture>
@@ -240,12 +287,8 @@ Static project site with illustrative scenarios. The application lives in <a hre
 > [!TIP]
 > **Principles:** local-first when it fits · explicit states over assumed success · evidence over assumptions · accessible motion.
 
-<h2>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/headings/where-ive-been-dark.png" />
-<img src="./assets/headings/where-ive-been-light.png" width="238" height="48" alt="Where I've been" />
-</picture>
-</h2>
+<details>
+<summary><b>Where I've been</b></summary>
 
 | When | What |
 | :-- | :-- |
@@ -254,6 +297,8 @@ Static project site with illustrative scenarios. The application lives in <a hre
 | **2023–Jun 2026** | **Freelance web developer & SEO consultant** for local businesses around Sassuolo and Scandiano |
 | **May–Jun 2025** | **Erasmus+ at Starbotica, Seville:** IT support, Windows, Active Directory, local networks |
 | **2021–2026** | **Computer Science & Telecommunications**, IIS A. Volta, Sassuolo; Beautify was my diploma project |
+
+</details>
 
 <h2>
 <picture>
@@ -295,8 +340,9 @@ Animations of my avatar made for my website.
 
 </details>
 
-<details>
-<summary><b>Leggi in italiano</b></summary>
+<a id="it"></a>
+
+<h2>Leggi in italiano</h2>
 
 Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE e mi divido tra sviluppo software, grafica e interfacce: la parte che le persone toccano, e la logica che deve reggere.
 
@@ -308,8 +354,6 @@ Sono **Gabriele Lucia**, di Sassuolo. Studio Ingegneria Informatica all'UNIMORE 
 - **Design e web:** portfolio, demo Spinotto Felice, landing Top Gun Fly School e sito Synkris.
 
 Ho lavorato come sviluppatore web freelance e consulente SEO, ho fatto supporto IT durante l'Erasmus a Siviglia e mi sono occupato di software industriale, PLC e SQL Server.
-
-</details>
 
 <div align="center">
 
