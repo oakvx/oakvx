@@ -72,15 +72,19 @@ def render_card(card, svg_path, png_path, fonts, brand, brand_family):
     title_family = brand_family if brand else "DejaVu Sans"
     # Medium/Light carry the 400 weight themselves; only bump to 700 for
     # bold-faced brand fonts (e.g. contb.ttf)
+    stroke_extra = ""
     if brand_family and re.search(r"(medium|light|regular|light)", brand_family, re.I):
         title_weight = 400
+        # resvg ignores font-weight for single-weight families, so thicken
+        # the strokes with a same-color stroke to give the title a heavier feel
+        stroke_extra = " stroke: #3e4447; stroke-width: 1.2px; paint-order: stroke;"
     else:
         title_weight = 700
 
     # swap brand fonts for the render copy
     src = src.replace(
         ".title { font-family: 'Continuum Bold', 'Inter', sans-serif; font-size: 40px; font-weight: 400;",
-        f".title {{ font-family: '{title_family}', sans-serif; font-size: 40px; font-weight: {title_weight};",
+        f".title {{ font-family: '{title_family}', sans-serif; font-size: 40px; font-weight: {title_weight};{stroke_extra}",
     )
     src = src.replace("'Inter', sans-serif", "'DejaVu Sans', sans-serif")
     src = src.replace(".tag { font-size: 12px; font-weight: 500;", ".tag { font-size: 12px; font-weight: 700;")
