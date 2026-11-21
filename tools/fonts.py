@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
-"""Fetch the Continuum (Wii) font from fontmeme.com for card rendering.
+"""Fetch the Continuum (Wii) font at build time for card rendering.
 
-The brand cards use 'Continuum Bold' for titles (the Wii font by Brøderbund
-Software, free download at fontmeme.com/continuum-font/). The build must not
-rely on a locally installed copy: this helper downloads contb.ttf into a
-git-ignored cache dir and returns its path so render_card_pngs.py can use it.
+The brand cards use the Continuum family (by Brøderbund Software) for
+titles. The build must not rely on a locally installed copy: this helper
+downloads the font file from CDNFonts (primary, pointed at by the project)
+into a git-ignored cache dir and returns its path so render_card_pngs.py
+can use it.
+
+The fontmeme.com route is kept as a legacy fallback (in case CDNFonts is
+unreachable); it reads the download URL from the fontmeme page when
+possible.
 
 Deliberately guarded:
 - the downloaded font is never committed (render tools never stage it);
-- if every candidate URL fails, it prints the URLs tried and returns [],
-  so callers can fall back to the system fonts instead of failing the build.
+- if every candidate URL fails, it prints the URLs tried and exits 0 with
+  a warning, so callers can fall back to the system fonts instead of
+  failing the build.
 
 Usage:
 
-    python3 tools/fonts.py        # prints paths, exit code 0 even if download failed
+    python3 tools/fonts.py        # prints the font path/family, exits 0 either way
 """
 import re
 import ssl
@@ -26,7 +32,17 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 CACHE_DIR = REPO / ".cache" / "fonts"
-FONT_NAME = "contb.ttf"
+
+# Continuum (Wii font) via CDNFonts.com — the source pointed at by the user.
+CDNFONTS_CSS_URL = "https://fonts.cdnfonts.com/css/continuum-medium"
+CDNFONTS_FONT_NAME = "continuum-medium.woff"
+# The brand family (Continuum Bold) was never served by the CDN; Medium is the
+# closest brand-weight available there. The weights explicitly listed on the
+# source estimate are 'Continuum Light' and 'Continuum Medium'.
+
+# Fallback: the original fontmeme.com route (unreachable from sandboxes).
+FONTMEME_CSS_URL = "https://fontmeme.com/fonts/continuum-font/"
+FONTMEME_FONT_NAME = "contb.ttf"
 FONT_URLS = [
     "https://fontmeme.com/fonts/static/15360/contb.ttf",
     "https://fontmeme.com/fonts/static/15360/contb.ttf.download",
@@ -106,42 +122,97 @@ def page_candidate_urls():
     return urls
 
 
-def download_font(destination, urls):
-    destination = Path(destination)
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    discovered = page_candidate_urls()
-    if discovered:
-        print(f"discovered {len(discovered)} .ttf link(s) from fontmeme page")
-    # try page-discovered URLs first (they are the real links), then the static guesses
-    ordered = discovered + [u for u in urls if u not in discovered]
-    for url in ordered:
+def download(url, destination, max_bytes=8 * 1024 * 1024):
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Firefox/121.0"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = resp.read(max_bytes + 1)
+    if len(data) > max_bytes:
+        raise OSError("font download too large")
+    return data
+
+
+def validate_font(data, kind):
+    # WOFF/WOFF2 or TrueType magic bytes
+    if kind == "woff":
+        return data[:4] in (b"wOFF", b"wOF2")
+    return data[:4] in (b"\x00\x01\x00\x00", b"true", b"OTTO")
+
+
+def fetch_cdnfonts():
+    """Fetch the Continuum font file from CDNFonts."""
+    try:
+        css = download(CDNFONTS_CSS_URL, None)
+    except Exception as e:
+        print(f"failed to fetch CDNFonts CSS {CDNFONTS_CSS_URL} -> {e}", file=sys.stderr)
+        return None, None
+    if isinstance(css, bytes):
+        css = css.decode("utf-8", "replace")
+    m = re.search(r"url\('([^']+\.(?:woff2?|ttf|otf))'\)", css, re.I)
+    if not m:
+        print("no .ttf/.woff link found in CDNFonts CSS", file=sys.stderr)
+        return None, None
+    woff_url = re.sub(r"\\(.)", r"\1", m.group(1))  # unescape CSS url() string
+    if woff_url.startswith("//"):
+        woff_url = "https:" + woff_url
+    print(f"CDNFonts @font-face src: {woff_url}")
+    try:
+        data = download(woff_url, None)
+        if not validate_font(data, "woff"):
+            print("CDNFonts font file rejected (not a WOFF)", file=sys.stderr)
+            return None, None
+    except Exception as e:
+        print(f"failed to download CDNFonts font from {woff_url} -> {e}", file=sys.stderr)
+        return None, None
+    family_m = re.search(r"font-family:\s*'([^']+)'", css)
+    family = family_m.group(1) if family_m else "Continuum Medium"
+    return data, family
+
+
+def fetch_fontmeme():
+    """Fallback: try the fontmeme.com route from the original request."""
+    for url in page_candidate_urls() + FONT_URLS:
         try:
-            req = urllib.request.Request(
-                url,
-                headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Firefox/121.0"},
-            )
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                data = resp.read()
-            if not ttf_magic_ok(data):
+            data = download(url, None)
+            if not validate_font(data, "ttf"):
                 print(f"rejected (not a font): {url}", file=sys.stderr)
                 continue
-            destination.write_bytes(data)
-            print(f"downloaded {FONT_NAME} from {url} ({len(data)} bytes)")
-            return True
-        except (urllib.error.URLError, urllib.error.HTTPError, OSError, ssl.SSLError, TimeoutError) as e:
+            return data, None
+        except Exception as e:
             print(f"failed: {url} -> {e}", file=sys.stderr)
-    return False
+    return None, None
 
 
 def ensure_continuum(cache_dir=None):
-    """Return (font_path, family_name) for the Continuum bold font, or (None, None)."""
+    """Return (font_path, family_name) for the Continuum brand font, or (None, None)."""
     cache_dir = Path(cache_dir or CACHE_DIR)
-    destination = cache_dir / FONT_NAME
-    if not destination.is_file():
-        if not download_font(destination, FONT_URLS):
-            return None, None
-    family = read_family_name(destination)
-    return str(destination), family
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
+    # CDN route (primary)
+    dest = cache_dir / CDNFONTS_FONT_NAME
+    if not dest.is_file():
+        data, family = fetch_cdnfonts()
+        if data and family:
+            dest.write_bytes(data)
+            print(f"downloaded Continuum font from CDNFonts: {dest} ({len(data)} bytes, family={family!r})")
+    if dest.is_file():
+        family = "Continuum Medium"
+        return str(dest), family
+
+    # fontmeme fallback
+    ttf_dest = cache_dir / FONTMEME_FONT_NAME
+    if not ttf_dest.is_file():
+        data, _ = fetch_fontmeme()
+        if data:
+            ttf_dest.write_bytes(data)
+            print(f"downloaded Continuum font from fontmeme: {ttf_dest} ({len(data)} bytes)")
+    if ttf_dest.is_file():
+        family = read_family_name(ttf_dest)
+        return str(ttf_dest), family if family else "Continuum Bold"
+
+    return None, None
 
 
 def main():
@@ -156,7 +227,7 @@ def main():
     if font and family:
         print(f"continuum font: {font} (family={family!r})")
         return 0
-    print("WARNING: cannot fetch the Continuum font from fontmeme.com (see URLs tried above); "
+    print("WARNING: cannot fetch the Continuum font (see URLs tried above); "
           "PNGs will render with system fonts. The committed brand-font PNGs are kept as-is.",
           file=sys.stderr)
     return 0
