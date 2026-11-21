@@ -81,11 +81,17 @@ def render_card(card, svg_path, png_path, fonts, brand, brand_family):
     else:
         title_weight = 700
 
-    # swap brand fonts for the render copy
-    src = src.replace(
-        ".title { font-family: 'Continuum Bold', 'Inter', sans-serif; font-size: 40px; font-weight: 400;",
-        f".title {{ font-family: '{title_family}', sans-serif; font-size: 40px; font-weight: {title_weight};{stroke_extra}",
+    # swap brand fonts for the render copy (any title font-size)
+    title_m = re.search(
+        r"\.title \{ font-family: [^;]+; font-size: ([0-9]+px); font-weight: [0-9]+; fill: ([^;]+); letter-spacing: ([^;]+); \}",
+        src,
     )
+    if title_m:
+        title_size, title_fill, letter_spacing = title_m.group(1), title_m.group(2), title_m.group(3)
+        src = src[:title_m.start()] + (
+            f".title {{ font-family: '{title_family}', sans-serif; font-size: {title_size}; "
+            f"font-weight: {title_weight};{stroke_extra} fill: {title_fill}; letter-spacing: {letter_spacing}; }}"
+        ) + src[title_m.end():]
     src = src.replace("'Inter', sans-serif", "'DejaVu Sans', sans-serif")
     src = src.replace(".tag { font-size: 12px; font-weight: 500;", ".tag { font-size: 12px; font-weight: 700;")
     src = src.replace(".number { font-size: 13px; font-weight: 600;", ".number { font-size: 13px; font-weight: 700;")
