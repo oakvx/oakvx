@@ -26,8 +26,8 @@ jobs:
 
       - name: Render card PNGs with the Continuum font
         # --all re-renders every card PNG with contb.ttf fetched at build time.
-        # Falls back to system fonts (with a warning) if fontmeme is unreachable;
-        # committed PNGs are never downgraded offline.
+        # If fontmeme is unreachable the render keeps committed brand PNGs as-is
+        # and warns loudly (never downgrades them to DejaVu stand-ins).
         run: python3 tools/render_card_pngs.py --all
 
       - name: Commit if changed

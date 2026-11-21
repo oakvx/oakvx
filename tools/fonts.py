@@ -145,15 +145,21 @@ def ensure_continuum(cache_dir=None):
 
 
 def main():
+    """Never fail the build: a missing brand font degrades gracefully.
+
+    Returns 0 either way, but exits non-zero via a loudly-printed marker when
+    the font could not be fetched — stderr output makes the degraded build
+    visible in CI logs (render_card_pngs.py then renders missing PNGs with
+    system fonts and keeps committed brand PNGs untouched).
+    """
     font, family = ensure_continuum()
     if font and family:
         print(f"continuum font: {font} (family={family!r})")
         return 0
-    print("ERROR: cannot fetch the Continuum font from fontmeme.com (see URLs tried above). "
-          "The build cannot render brand-font card PNGs without it. "
-          "Check the URL list in tools/fonts.py or fetch contb.ttf elsewhere.",
+    print("WARNING: cannot fetch the Continuum font from fontmeme.com (see URLs tried above); "
+          "PNGs will render with system fonts. The committed brand-font PNGs are kept as-is.",
           file=sys.stderr)
-    return 1
+    return 0
 
 
 if __name__ == "__main__":
