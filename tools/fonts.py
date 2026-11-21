@@ -15,6 +15,7 @@ Usage:
 
     python3 tools/fonts.py        # prints paths, exit code 0 even if download failed
 """
+import re
 import ssl
 import sys
 import struct
@@ -76,10 +77,44 @@ def read_family_name(ttf_path):
     return best
 
 
+PAGE_URL = "https://fontmeme.com/fonts/continuum-font/"
+
+
+def page_candidate_urls():
+    """Discover the download link straight from the fontmeme page."""
+    try:
+        req = urllib.request.Request(
+            PAGE_URL,
+            headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Firefox/121.0"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            html = resp.read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"failed to fetch font page {PAGE_URL} -> {e}", file=sys.stderr)
+        return []
+    urls = []
+    for m in re.finditer(r'href=["\']([^"\']+contb\.ttf[^"\']*)["\']', html, re.I):
+        url = m.group(1).strip()
+        if url.startswith("https://"):
+            urls.append(url)
+        elif url.startswith("//"):
+            urls.append("https:" + url)
+        elif url.startswith("/"):
+            urls.append("https://fontmeme.com" + url)
+        else:
+            urls.append("https://fontmeme.com/" + url)
+    return urls
+
+
 def download_font(destination, urls):
     destination = Path(destination)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    for url in urls:
+    discovered = page_candidate_urls()
+    if discovered:
+        print(f"discovered {len(discovered)} .ttf link(s) from fontmeme page")
+    # try page-discovered URLs first (they are the real links), then the static guesses
+    ordered = discovered + [u for u in urls if u not in discovered]
+    for url in ordered:
         try:
             req = urllib.request.Request(
                 url,
