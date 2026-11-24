@@ -69,9 +69,9 @@ Computer engineering student, software developer and graphic designer. I work on
 <sub>Recently pushed · auto-updated by Actions</sub>
 
 <!-- RECENT:START -->
-- [`oye`](https://github.com/oakvx/oye) · updated 2026-11-23
+- [`oye`](https://github.com/oakvx/oye) · updated 2026-11-24
+- [`yag`](https://github.com/oakvx/yag) · updated 2026-11-24
 - [`synkris`](https://github.com/oakvx/synkris) · updated 2026-11-23
-- [`yag`](https://github.com/oakvx/yag) · updated 2026-11-23
 - [`oakvx.github.io`](https://github.com/oakvx/oakvx.github.io) · updated 2026-11-21
 - [`piko`](https://github.com/oakvx/piko) · updated 2026-11-19
 <!-- RECENT:END -->
